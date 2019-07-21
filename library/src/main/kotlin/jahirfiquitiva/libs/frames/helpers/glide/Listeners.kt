@@ -26,15 +26,15 @@ import com.bumptech.glide.request.target.Target
 import com.legion.lpaper.helpers.utils.FL
 import jahirfiquitiva.libs.kext.helpers.Rec
 
-inline fun <reified T> quickListener(crossinline what: (T) -> Boolean): FramesGlideListener<T> {
-    return object : FramesGlideListener<T>() {
+inline fun <reified T> quickListener(crossinline what: (T) -> Boolean): LPaperGlideListener<T> {
+    return object : LPaperGlideListener<T>() {
         override fun onLoadSucceed(resource: T, model: Any?, isFirst: Boolean): Boolean {
             return what(resource)
         }
     }
 }
 
-abstract class FramesGlideListener<Type> : RequestListener<Type> {
+abstract class LPaperGlideListener<Type> : RequestListener<Type> {
     abstract fun onLoadSucceed(resource: Type, model: Any?, isFirst: Boolean): Boolean
     open fun onLoadFailed(): Boolean = false
     
@@ -56,7 +56,7 @@ abstract class FramesGlideListener<Type> : RequestListener<Type> {
 /**
  * Credits: https://github.com/chrisbanes/tivi/
  */
-abstract class GlidePaletteListener : FramesGlideListener<Drawable>() {
+abstract class GlidePaletteListener : LPaperGlideListener<Drawable>() {
     
     companion object {
         private val cache = LruCache<Any, Palette>(20)

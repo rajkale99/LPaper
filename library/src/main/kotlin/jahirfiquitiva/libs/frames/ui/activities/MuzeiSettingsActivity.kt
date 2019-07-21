@@ -33,8 +33,8 @@ import com.afollestad.materialdialogs.MaterialDialog
 import jahirfiquitiva.libs.archhelpers.extensions.mdDialog
 import com.legion.lpaper.R
 import com.legion.lpaper.data.models.Collection
-import com.legion.lpaper.data.services.FramesArtProvider
-import com.legion.lpaper.helpers.utils.FramesKonfigs
+import com.legion.lpaper.data.services.LPaperArtProvider
+import com.legion.lpaper.helpers.utils.LPaperKonfigs
 import com.legion.lpaper.ui.widgets.CustomToolbar
 import com.legion.lpaper.viewmodels.CollectionsViewModel
 import com.legion.lpaper.viewmodels.WallpapersViewModel
@@ -51,14 +51,14 @@ import jahirfiquitiva.libs.kext.extensions.secondaryTextColor
 import jahirfiquitiva.libs.kext.extensions.tint
 import jahirfiquitiva.libs.kext.ui.activities.ThemedActivity
 
-class MuzeiSettingsActivity : ThemedActivity<FramesKonfigs>() {
+class MuzeiSettingsActivity : ThemedActivity<LPaperKonfigs>() {
     companion object {
         private const val SEEKBAR_STEPS = 1
         private const val SEEKBAR_MAX_VALUE = 13
         private const val SEEKBAR_MIN_VALUE = 0
     }
     
-    override val prefs: FramesKonfigs by lazy { FramesKonfigs(this) }
+    override val prefs: LPaperKonfigs by lazy { LPaperKonfigs(this) }
     override fun lightTheme(): Int = R.style.LightTheme
     override fun darkTheme(): Int = R.style.DarkTheme
     override fun amoledTheme(): Int = R.style.AmoledTheme
@@ -97,7 +97,7 @@ class MuzeiSettingsActivity : ThemedActivity<FramesKonfigs>() {
             getSecondaryTextColorFor(primaryColor),
             getActiveIconsColorFor(primaryColor))
         
-        val isFramesApp = boolean(R.bool.isFrames)
+        val isLPaperApp = boolean(R.bool.isLPaper)
         
         /*
         val everyTitle: TextView? by bind(R.id.every_title)
@@ -136,7 +136,7 @@ class MuzeiSettingsActivity : ThemedActivity<FramesKonfigs>() {
         findViewById<View>(R.id.divider).background = ColorDrawable(dividerColor)
         */
         
-        if (isFramesApp) {
+        if (isLPaperApp) {
             findViewById<View>(R.id.other_divider).background = ColorDrawable(dividerColor)
         } else {
             findViewById<View>(R.id.other_divider).gone()
@@ -157,7 +157,7 @@ class MuzeiSettingsActivity : ThemedActivity<FramesKonfigs>() {
         collsSummaryText?.setTextColor(secondaryTextColor)
         collsSummaryText?.text = getString(R.string.choose_collections_summary, selectedCollections)
         
-        if (isFramesApp) {
+        if (isLPaperApp) {
             findViewById<LinearLayout>(R.id.choose_collections).setOnClickListener {
                 if (isNetworkAvailable) {
                     showChooseCollectionsDialog()
@@ -267,7 +267,7 @@ class MuzeiSettingsActivity : ThemedActivity<FramesKonfigs>() {
         } catch (ignored: Exception) {
         }
         try {
-            val intent = Intent(this, FramesArtProvider::class.java)
+            val intent = Intent(this, LPaperArtProvider::class.java)
             intent.putExtra("restart", true)
             startService(intent)
         } catch (e: Exception) {

@@ -26,7 +26,7 @@ import com.legion.lpaper.data.models.Wallpaper
 import com.legion.lpaper.helpers.extensions.jfilter
 import com.legion.lpaper.helpers.glide.loadPicture
 import com.legion.lpaper.helpers.utils.MAX_WALLPAPERS_LOAD
-import com.legion.lpaper.ui.adapters.viewholders.FramesViewClickListener
+import com.legion.lpaper.ui.adapters.viewholders.LPaperViewClickListener
 import com.legion.lpaper.ui.adapters.viewholders.WallpaperHolder
 import jahirfiquitiva.libs.kext.ui.adapters.RecyclerViewListAdapter
 import java.util.Collections
@@ -36,7 +36,7 @@ class WallpapersAdapter(
     private val provider: ViewPreloadSizeProvider<Wallpaper>,
     private val fromFavorites: Boolean,
     private val showFavIcon: Boolean,
-    private val listener: FramesViewClickListener<Wallpaper, WallpaperHolder>
+    private val listener: LPaperViewClickListener<Wallpaper, WallpaperHolder>
                        ) :
     RecyclerViewListAdapter<Wallpaper, WallpaperHolder>(
         if (fromFavorites) -1 else MAX_WALLPAPERS_LOAD),

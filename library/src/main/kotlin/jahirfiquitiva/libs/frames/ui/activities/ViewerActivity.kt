@@ -74,7 +74,7 @@ import com.legion.lpaper.helpers.glide.loadPicture
 import com.legion.lpaper.helpers.glide.quickListener
 import com.legion.lpaper.helpers.utils.DATABASE_NAME
 import com.legion.lpaper.helpers.utils.FL
-import com.legion.lpaper.helpers.utils.FramesKonfigs
+import com.legion.lpaper.helpers.utils.LPaperKonfigs
 import com.legion.lpaper.helpers.utils.MIN_TIME
 import com.legion.lpaper.ui.activities.base.BaseWallpaperActionsActivity
 import com.legion.lpaper.ui.adapters.viewholders.WallpaperDetail
@@ -108,7 +108,7 @@ import org.jetbrains.anko.doAsync
 import java.io.FileInputStream
 import java.util.ArrayList
 
-open class ViewerActivity : BaseWallpaperActionsActivity<FramesKonfigs>() {
+open class ViewerActivity : BaseWallpaperActionsActivity<LPaperKonfigs>() {
     
     companion object {
         private const val FAVORITE_ACTION_ID = 3
@@ -119,7 +119,7 @@ open class ViewerActivity : BaseWallpaperActionsActivity<FramesKonfigs>() {
         const val CURRENT_WALL_POSITION = "curr_wall_pos"
     }
     
-    override val prefs: FramesKonfigs by lazy { FramesKonfigs(this) }
+    override val prefs: LPaperKonfigs by lazy { LPaperKonfigs(this) }
     
     override var wallpaper: Wallpaper? = null
     override val allowBitmapApply: Boolean = true

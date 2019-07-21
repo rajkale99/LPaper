@@ -19,9 +19,9 @@ import android.content.Context
 import jahirfiquitiva.libs.archhelpers.viewmodels.ListViewModel
 import com.legion.lpaper.R
 import com.legion.lpaper.data.models.Wallpaper
-import com.legion.lpaper.helpers.remote.FramesUrlRequests
+import com.legion.lpaper.helpers.remote.LPaperUrlRequests
 import com.legion.lpaper.helpers.utils.FL
-import com.legion.lpaper.helpers.utils.FramesKonfigs
+import com.legion.lpaper.helpers.utils.LPaperKonfigs
 import jahirfiquitiva.libs.kext.extensions.boolean
 import jahirfiquitiva.libs.kext.extensions.formatCorrectly
 import jahirfiquitiva.libs.kext.extensions.hasContent
@@ -34,10 +34,10 @@ class WallpapersViewModel : ListViewModel<Context, Wallpaper>() {
     
     override fun internalLoad(param: Context): ArrayList<Wallpaper> =
         loadWallpapers(
-            param, FramesUrlRequests.requestJson(param.getString(R.string.json_url)))
+            param, LPaperUrlRequests.requestJson(param.getString(R.string.json_url)))
     
     private fun loadWallpapers(context: Context, serverResponse: String): ArrayList<Wallpaper> {
-        val prevResponse = FramesKonfigs(context).backupJson
+        val prevResponse = LPaperKonfigs(context).backupJson
         val validPrevResponse = prevResponse.hasContent() && prevResponse != "[]"
         return if (serverResponse.hasContent()) {
             val nResponse = safeParseResponseToJSON(context, serverResponse)
@@ -87,7 +87,7 @@ class WallpapersViewModel : ListViewModel<Context, Wallpaper>() {
     }
     
     private fun parseListFromJson(context: Context, json: JSONArray): ArrayList<Wallpaper> {
-        FramesKonfigs(context).backupJson = json.toString()
+        LPaperKonfigs(context).backupJson = json.toString()
         val fWallpapers = ArrayList<Wallpaper>()
         var featuredAdded = false
         for (index in 0..json.length()) {

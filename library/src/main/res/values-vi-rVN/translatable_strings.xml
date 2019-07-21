@@ -65,7 +65,7 @@
     <string name="refresh">Làm mới</string>
     <string name="translate">Dịch thuật</string>
     <string name="licenses">Giấy phép</string>
-    <!-- Consider Frames an untranslatable word. It's the dashboard name -->
+    <!-- Consider LPaper an untranslatable word. It's the dashboard name -->
     <string name="frames_dashboard">Khung bảng</string>
     <string name="dev_contributions">Trợ giúp phát triển</string>
     <string name="ui_contributions">Giao diện người dùng trợ giúp</string>

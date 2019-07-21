@@ -18,12 +18,12 @@ package com.legion.lpaper.viewmodels
 import jahirfiquitiva.libs.archhelpers.viewmodels.ItemViewModel
 import com.legion.lpaper.data.models.Wallpaper
 import com.legion.lpaper.data.models.WallpaperInfo
-import com.legion.lpaper.helpers.remote.FramesUrlRequests
+import com.legion.lpaper.helpers.remote.LPaperUrlRequests
 import jahirfiquitiva.libs.kext.extensions.hasContent
 
 class WallpaperInfoViewModel : ItemViewModel<Wallpaper, WallpaperInfo>() {
     override fun internalLoad(param: Wallpaper): WallpaperInfo =
-        FramesUrlRequests.requestFileInfo(param.url, param.dimensions.hasContent())
+        LPaperUrlRequests.requestFileInfo(param.url, param.dimensions.hasContent())
     
     override fun isOldDataValid(): Boolean = getData()?.isValid == true
 }

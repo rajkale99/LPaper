@@ -65,7 +65,7 @@
     <string name="refresh">Yenile</string>
     <string name="translate">Çeviri</string>
     <string name="licenses">Lisanslar</string>
-    <!-- Consider Frames an untranslatable word. It's the dashboard name -->
+    <!-- Consider LPaper an untranslatable word. It's the dashboard name -->
     <string name="frames_dashboard">Çerçevelenmiş pano</string>
     <string name="dev_contributions">Geliştirme Yardımı</string>
     <string name="ui_contributions">UI Yardımı</string>

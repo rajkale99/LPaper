@@ -17,4 +17,4 @@ package com.legion.lpaper.helpers.utils
 
 import jahirfiquitiva.libs.kext.helpers.Rec
 
-internal object FL : Rec("Frames")
+internal object FL : Rec("LPaper")

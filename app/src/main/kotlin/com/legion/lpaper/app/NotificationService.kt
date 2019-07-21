@@ -13,15 +13,15 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package jahirfiquitiva.apps.frames.sample
+package com.legion.lpaper.app
 
 /* TODO: Remove comment marks to enable
 import com.onesignal.NotificationExtenderService
 import com.onesignal.OSNotificationReceivedResult
-import com.legion.lpaper.helpers.utils.FramesKonfigs
+import com.legion.lpaper.helpers.utils.LPaperKonfigs
 
 class NotificationService : NotificationExtenderService() {
     override fun onNotificationProcessing(notification: OSNotificationReceivedResult?): Boolean =
-            !FramesKonfigs(this).notificationsEnabled
+            !LPaperKonfigs(this).notificationsEnabled
 }
 */

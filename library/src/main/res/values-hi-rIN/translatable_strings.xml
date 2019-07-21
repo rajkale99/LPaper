@@ -63,7 +63,7 @@
     <string name="refresh">रिफ्रेश</string>
     <string name="translate">ट्रांसलेट</string>
     <string name="licenses">लाइसेंस</string>
-    <!-- Consider Frames an untranslatable word. It's the dashboard name -->
+    <!-- Consider LPaper an untranslatable word. It's the dashboard name -->
     <string name="frames_dashboard">फ्रेम्स डैशबोर्ड</string>
     <string name="dev_contributions">डेवलपमेंट हेल्प</string>
     <string name="ui_contributions">यूआई हेल्प</string>

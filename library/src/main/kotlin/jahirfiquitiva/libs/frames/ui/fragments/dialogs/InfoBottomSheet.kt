@@ -35,7 +35,7 @@ import ca.allanwang.kau.utils.visible
 import com.legion.lpaper.R
 import com.legion.lpaper.data.models.Collection
 import com.legion.lpaper.ui.activities.CollectionActivity
-import com.legion.lpaper.ui.activities.base.BaseFramesActivity
+import com.legion.lpaper.ui.activities.base.BaseLPaperActivity
 import com.legion.lpaper.ui.adapters.WallpaperInfoAdapter
 import com.legion.lpaper.ui.adapters.viewholders.WallpaperDetail
 import jahirfiquitiva.libs.kext.extensions.isInHorizontalMode
@@ -74,7 +74,7 @@ class InfoBottomSheet : BaseBottomSheet() {
                     intent.putExtra("item", it)
                     intent.putExtra(
                         "checker",
-                        (activity as? BaseFramesActivity<*>)?.getLicenseChecker() != null)
+                        (activity as? BaseLPaperActivity<*>)?.getLicenseChecker() != null)
                     activity?.startActivityForResult(intent, 12)
                 }
             } else {

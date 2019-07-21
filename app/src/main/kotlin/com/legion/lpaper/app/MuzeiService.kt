@@ -13,9 +13,9 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package jahirfiquitiva.apps.frames.sample
+package com.legion.lpaper.app
 
-import com.legion.lpaper.data.services.FramesArtProvider
+import com.legion.lpaper.data.services.LPaperArtProvider
 
-// TODO: Use a unique name instead of MyFramesMuzeiService
-class MuzeiService : FramesArtProvider()
+// TODO: Use a unique name instead of MyLPaperMuzeiService
+class MuzeiService : LPaperArtProvider()

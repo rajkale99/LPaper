@@ -93,7 +93,7 @@ open class SettingsFragment : PreferenceFragment() {
     
     private fun initDatabase() {
         activity {
-            if (boolean(R.bool.isFrames) && database == null) {
+            if (boolean(R.bool.isLPaper) && database == null) {
                 database = Room.databaseBuilder(
                     it, FavoritesDatabase::class.java,
                     DATABASE_NAME).fallbackToDestructiveMigration().build()
@@ -142,7 +142,7 @@ open class SettingsFragment : PreferenceFragment() {
         }
         
         val columns = findPreference("columns")
-        if (boolean(R.bool.isFrames)) {
+        if (boolean(R.bool.isLPaper)) {
             columns?.setOnPreferenceClickListener {
                 clearDialog()
                 val currentColumns = configs.columns - 1
@@ -216,7 +216,7 @@ open class SettingsFragment : PreferenceFragment() {
         }
         
         val clearDatabase = findPreference("clear_database")
-        if (boolean(R.bool.isFrames)) {
+        if (boolean(R.bool.isLPaper)) {
             clearDatabase?.setOnPreferenceClickListener {
                 clearDialog()
                 dialog = activity?.mdDialog {

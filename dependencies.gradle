@@ -15,7 +15,7 @@
  */
 ext.details = [
         // Core app details
-        appId   : 'Frames',
+        appId   : 'LPaper',
         appGroup: 'jahirfiquitiva.apps',
         libGroup: 'jahirfiquitiva.libs',
 ]

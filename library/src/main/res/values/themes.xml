@@ -16,13 +16,13 @@
   -->
 <resources xmlns:tools="http://schemas.android.com/tools">
 
-    <style name="LightTheme" parent="Frames.Base.Light" />
+    <style name="LightTheme" parent="LPaper.Base.Light" />
 
-    <style name="DarkTheme" parent="Frames.Base.Dark" />
+    <style name="DarkTheme" parent="LPaper.Base.Dark" />
 
-    <style name="TransparentTheme" parent="Frames.Base.Clear" />
+    <style name="TransparentTheme" parent="LPaper.Base.Clear" />
 
-    <style name="AmoledTheme" parent="Frames.Base.Amoled" />
+    <style name="AmoledTheme" parent="LPaper.Base.Amoled" />
 
     <style name="Viewer.LightTheme" parent="LightTheme" />
 
@@ -32,7 +32,7 @@
 
     <style name="Viewer.TransparentTheme" parent="TransparentTheme" />
 
-    <style name="Frames.Base.Light" parent="Theme.AppCompat.Light.NoActionBar">
+    <style name="LPaper.Base.Light" parent="Theme.AppCompat.Light.NoActionBar">
         <item name="colorPrimary">@color/light_theme_primary</item>
         <item name="colorPrimaryDark">@color/light_theme_primary_dark</item>
         <item name="colorAccent">@color/light_theme_accent</item>
@@ -58,7 +58,7 @@
         <item name="isDarkTheme">false</item>
     </style>
 
-    <style name="Frames.Base.Dark" parent="Theme.AppCompat.NoActionBar">
+    <style name="LPaper.Base.Dark" parent="Theme.AppCompat.NoActionBar">
         <item name="colorPrimary">@color/dark_theme_primary</item>
         <item name="colorPrimaryDark">@color/dark_theme_primary_dark</item>
         <item name="colorAccent">@color/dark_theme_accent</item>
@@ -84,7 +84,7 @@
         <item name="isDarkTheme">true</item>
     </style>
 
-    <style name="Frames.Base.Amoled" parent="Frames.Base.Dark">
+    <style name="LPaper.Base.Amoled" parent="LPaper.Base.Dark">
         <item name="colorPrimary">@android:color/black</item>
         <item name="colorPrimaryDark">@android:color/black</item>
         <item name="android:windowBackground">@android:color/black</item>
@@ -95,7 +95,7 @@
 
     <color name="clear_bg">#70000000</color>
 
-    <style name="Frames.Base.Clear" parent="Frames.Base.Amoled">
+    <style name="LPaper.Base.Clear" parent="LPaper.Base.Amoled">
         <item name="android:windowShowWallpaper">true</item>
         <item name="android:windowBackground">@color/clear_bg</item>
     </style>

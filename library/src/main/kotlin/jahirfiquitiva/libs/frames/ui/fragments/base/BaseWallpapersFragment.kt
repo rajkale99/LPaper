@@ -51,10 +51,10 @@ import com.legion.lpaper.helpers.utils.FL
 import com.legion.lpaper.helpers.utils.MAX_WALLPAPERS_LOAD
 import com.legion.lpaper.helpers.utils.TransitionCallback
 import com.legion.lpaper.ui.activities.ViewerActivity
-import com.legion.lpaper.ui.activities.base.BaseFramesActivity
+import com.legion.lpaper.ui.activities.base.BaseLPaperActivity
 import com.legion.lpaper.ui.activities.base.FavsDbManager
 import com.legion.lpaper.ui.adapters.WallpapersAdapter
-import com.legion.lpaper.ui.adapters.viewholders.FramesViewClickListener
+import com.legion.lpaper.ui.adapters.viewholders.LPaperViewClickListener
 import com.legion.lpaper.ui.adapters.viewholders.WallpaperHolder
 import com.legion.lpaper.ui.widgets.EmptyViewRecyclerView
 import com.legion.lpaper.ui.widgets.EndlessRecyclerViewScrollListener
@@ -73,7 +73,7 @@ import jahirfiquitiva.libs.kext.extensions.toBitmap
 import jahirfiquitiva.libs.kext.ui.decorations.GridSpacingItemDecoration
 import java.io.FileOutputStream
 
-abstract class BaseWallpapersFragment : BaseFramesFragment<Wallpaper, WallpaperHolder>() {
+abstract class BaseWallpapersFragment : BaseLPaperFragment<Wallpaper, WallpaperHolder>() {
     
     var hasChecker = false
     var recyclerView: EmptyViewRecyclerView? = null
@@ -97,14 +97,14 @@ abstract class BaseWallpapersFragment : BaseFramesFragment<Wallpaper, WallpaperH
         WallpapersAdapter(
             context?.let { Glide.with(it) },
             provider, fromFavorites(), showFavoritesIcon(),
-            object : FramesViewClickListener<Wallpaper, WallpaperHolder>() {
+            object : LPaperViewClickListener<Wallpaper, WallpaperHolder>() {
                 override fun onSingleClick(item: Wallpaper, holder: WallpaperHolder) {
                     onItemClicked(item, holder)
                 }
                 
                 override fun onLongClick(item: Wallpaper, holder: WallpaperHolder) {
                     super.onLongClick(item, holder)
-                    (activity as? BaseFramesActivity<*>)?.showWallpaperOptionsDialog(item)
+                    (activity as? BaseLPaperActivity<*>)?.showWallpaperOptionsDialog(item)
                 }
                 
                 override fun onHeartClick(

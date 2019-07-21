@@ -31,7 +31,7 @@ import com.afollestad.materialdialogs.MaterialDialog
 import com.afollestad.materialdialogs.files.folderChooser
 import jahirfiquitiva.libs.archhelpers.extensions.mdDialog
 import com.legion.lpaper.R
-import com.legion.lpaper.helpers.utils.FramesKonfigs
+import com.legion.lpaper.helpers.utils.LPaperKonfigs
 import com.legion.lpaper.ui.fragments.SettingsFragment
 import com.legion.lpaper.ui.widgets.CustomToolbar
 import jahirfiquitiva.libs.kext.extensions.bind
@@ -44,9 +44,9 @@ import jahirfiquitiva.libs.kext.extensions.tint
 import jahirfiquitiva.libs.kext.ui.activities.ActivityWFragments
 import java.io.File
 
-open class SettingsActivity : ActivityWFragments<FramesKonfigs>() {
+open class SettingsActivity : ActivityWFragments<LPaperKonfigs>() {
     
-    override val prefs: FramesKonfigs by lazy { FramesKonfigs(this) }
+    override val prefs: LPaperKonfigs by lazy { LPaperKonfigs(this) }
     override fun lightTheme(): Int = R.style.LightTheme
     override fun darkTheme(): Int = R.style.DarkTheme
     override fun amoledTheme(): Int = R.style.AmoledTheme
@@ -125,7 +125,7 @@ open class SettingsActivity : ActivityWFragments<FramesKonfigs>() {
         return super.onOptionsItemSelected(item)
     }
     
-    open fun getTranslationSite(): String = "http://j.mp/Trnsl8Frames"
+    open fun getTranslationSite(): String = "http://j.mp/Trnsl8LPaper"
     
     override fun onBackPressed() {
         super.onBackPressed()

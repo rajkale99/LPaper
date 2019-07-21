@@ -32,7 +32,7 @@ import com.bumptech.glide.load.resource.drawable.DrawableTransitionOptions
 import com.bumptech.glide.request.RequestListener
 import com.bumptech.glide.request.RequestOptions
 import com.bumptech.glide.request.transition.NoTransition
-import com.legion.lpaper.helpers.utils.FramesKonfigs
+import com.legion.lpaper.helpers.utils.LPaperKonfigs
 import jahirfiquitiva.libs.kext.extensions.isLowRamDevice
 
 fun RequestManager.loadPicture(
@@ -47,7 +47,7 @@ fun RequestManager.loadPicture(
                               ): RequestBuilder<*>? {
     return try {
         val finalUrl =
-            context?.let { if (FramesKonfigs(it).fullResGridPictures) url else thumbnail }
+            context?.let { if (LPaperKonfigs(it).fullResGridPictures) url else thumbnail }
                 ?: thumbnail
         var options = RequestOptions()
             .format(

@@ -27,7 +27,7 @@ import com.legion.lpaper.data.models.Wallpaper
 import com.legion.lpaper.helpers.glide.loadPicture
 import com.legion.lpaper.helpers.utils.MAX_COLLECTIONS_LOAD
 import com.legion.lpaper.ui.adapters.viewholders.CollectionHolder
-import com.legion.lpaper.ui.adapters.viewholders.FramesViewClickListener
+import com.legion.lpaper.ui.adapters.viewholders.LPaperViewClickListener
 import jahirfiquitiva.libs.kext.ui.adapters.RecyclerViewListAdapter
 import java.util.Collections
 
@@ -35,7 +35,7 @@ class CollectionsAdapter(
     private val manager: RequestManager?,
     private val filledCollectionPreview: Boolean,
     private val provider: ViewPreloadSizeProvider<Wallpaper>,
-    private val listener: FramesViewClickListener<Collection, CollectionHolder>
+    private val listener: LPaperViewClickListener<Collection, CollectionHolder>
                         ) :
     RecyclerViewListAdapter<Collection, CollectionHolder>(MAX_COLLECTIONS_LOAD),
     ListPreloader.PreloadModelProvider<Wallpaper> {

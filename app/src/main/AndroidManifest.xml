@@ -16,7 +16,7 @@
   -->
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
           xmlns:tools="http://schemas.android.com/tools"
-          package="jahirfiquitiva.apps.frames.sample">
+          package="com.legion.lpaper.app">
 
     <!-- Permission required for donations -->
     <uses-permission android:name="com.android.vending.BILLING" />

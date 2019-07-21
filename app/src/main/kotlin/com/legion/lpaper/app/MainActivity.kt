@@ -13,12 +13,12 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package jahirfiquitiva.apps.frames.sample
+package com.legion.lpaper.app
 
 import com.github.javiersantos.piracychecker.PiracyChecker
-import com.legion.lpaper.ui.activities.FramesActivity
+import com.legion.lpaper.ui.activities.LPaperActivity
 
-class MainActivity : FramesActivity() {
+class MainActivity : LPaperActivity() {
     /**
      * These things here have the default values. You can delete the ones you don't want to change
      * and/or modify the ones you want to.

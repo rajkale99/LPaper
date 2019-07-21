@@ -27,7 +27,7 @@
         <item>@string/auto_amoled</item>
     </string-array>
 
-    <bool name="isFrames">true</bool>
+    <bool name="isLPaper">true</bool>
 
     <string name="frames_notifications_action">"com.legion.lpaper.NOTIFICATIONS_ACTION"</string>
 

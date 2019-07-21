@@ -65,7 +65,7 @@
     <string name="refresh">রিফ্রেশ</string>
     <string name="translate">অনুবাদ</string>
     <string name="licenses">লাইসেন্স</string>
-    <!-- Consider Frames an untranslatable word. It's the dashboard name -->
+    <!-- Consider LPaper an untranslatable word. It's the dashboard name -->
     <string name="frames_dashboard">ফ্রেমস্ ড্যাশবোর্ড</string>
     <string name="dev_contributions">ডেভেলপমেন্ট সাহায্য</string>
     <string name="ui_contributions">UI সহায়তা</string>

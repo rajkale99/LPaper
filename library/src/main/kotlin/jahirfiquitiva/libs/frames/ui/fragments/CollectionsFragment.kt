@@ -37,8 +37,8 @@ import com.legion.lpaper.ui.activities.CollectionActivity
 import com.legion.lpaper.ui.activities.base.FavsDbManager
 import com.legion.lpaper.ui.adapters.CollectionsAdapter
 import com.legion.lpaper.ui.adapters.viewholders.CollectionHolder
-import com.legion.lpaper.ui.adapters.viewholders.FramesViewClickListener
-import com.legion.lpaper.ui.fragments.base.BaseFramesFragment
+import com.legion.lpaper.ui.adapters.viewholders.LPaperViewClickListener
+import com.legion.lpaper.ui.fragments.base.BaseLPaperFragment
 import com.legion.lpaper.ui.widgets.EmptyViewRecyclerView
 import com.legion.lpaper.ui.widgets.EndlessRecyclerViewScrollListener
 import jahirfiquitiva.libs.kext.extensions.accentColor
@@ -51,7 +51,7 @@ import jahirfiquitiva.libs.kext.extensions.isLowRamDevice
 import jahirfiquitiva.libs.kext.extensions.notNull
 import jahirfiquitiva.libs.kext.ui.decorations.GridSpacingItemDecoration
 
-internal class CollectionsFragment : BaseFramesFragment<Collection, CollectionHolder>() {
+internal class CollectionsFragment : BaseLPaperFragment<Collection, CollectionHolder>() {
     
     private var hasChecker = false
     
@@ -67,7 +67,7 @@ internal class CollectionsFragment : BaseFramesFragment<Collection, CollectionHo
         CollectionsAdapter(
             context?.let { Glide.with(it) },
             boolean(R.bool.enable_filled_collection_preview), provider,
-            object : FramesViewClickListener<Collection, CollectionHolder>() {
+            object : LPaperViewClickListener<Collection, CollectionHolder>() {
                 override fun onSingleClick(item: Collection, holder: CollectionHolder) {
                     onItemClicked(item, false)
                 }

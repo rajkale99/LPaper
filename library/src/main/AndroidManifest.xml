@@ -74,7 +74,7 @@
 
         <!--suppress AndroidDomInspection -->
         <activity
-            android:name=".ui.activities.FramesActivity"
+            android:name=".ui.activities.LPaperActivity"
             android:windowSoftInputMode="stateHidden|adjustPan|adjustResize"
             android:exported="false" />
         <activity

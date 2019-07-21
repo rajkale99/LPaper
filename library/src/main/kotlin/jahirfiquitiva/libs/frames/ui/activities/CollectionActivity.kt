@@ -38,8 +38,8 @@ import com.legion.lpaper.helpers.extensions.framesPostponeEnterTransition
 import com.legion.lpaper.helpers.extensions.safeStartPostponedEnterTransition
 import com.legion.lpaper.helpers.utils.DATABASE_NAME
 import com.legion.lpaper.helpers.utils.FL
-import com.legion.lpaper.helpers.utils.FramesKonfigs
-import com.legion.lpaper.ui.activities.base.BaseFramesActivity
+import com.legion.lpaper.helpers.utils.LPaperKonfigs
+import com.legion.lpaper.ui.activities.base.BaseLPaperActivity
 import com.legion.lpaper.ui.activities.base.FavsDbManager
 import com.legion.lpaper.ui.fragments.WallpapersInCollectionFragment
 import com.legion.lpaper.ui.widgets.CustomToolbar
@@ -55,9 +55,9 @@ import jahirfiquitiva.libs.kext.extensions.tint
 import jahirfiquitiva.libs.kext.ui.widgets.CustomSearchView
 import org.jetbrains.anko.doAsync
 
-class CollectionActivity : BaseFramesActivity<FramesKonfigs>(), FavsDbManager {
+class CollectionActivity : BaseLPaperActivity<LPaperKonfigs>(), FavsDbManager {
     
-    override val prefs: FramesKonfigs by lazy { FramesKonfigs(this) }
+    override val prefs: LPaperKonfigs by lazy { LPaperKonfigs(this) }
     override fun fragmentsContainer(): Int = R.id.fragments_container
     override fun getLicKey(): String? = null
     

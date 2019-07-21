@@ -1,17 +1,17 @@
-<img src="https://github.com/jahirfiquitiva/Frames/raw/master/art/app_logo.png" width="192" align="right" hspace="20" />
+<img src="https://github.com/jahirfiquitiva/LPaper/raw/master/art/app_logo.png" width="192" align="right" hspace="20" />
 
-Frames
+LPaper
 ======
 
 ![API](https://img.shields.io/badge/API-16%2B-34bf49.svg)
-[![JitPack](https://jitpack.io/v/com.jahirfiquitiva/Frames.svg)](https://jitpack.io/#com.jahirfiquitiva/Frames)
-[![Build Status](https://travis-ci.org/jahirfiquitiva/Frames.svg?branch=master)](https://travis-ci.org/jahirfiquitiva/Frames)
-[![Codacy Badge](https://api.codacy.com/project/badge/Grade/9747a594949f49b9a8146909868adfba)](https://www.codacy.com/app/jahirfiquitiva/Frames?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=jahirfiquitiva/Frames&amp;utm_campaign=Badge_Grade)
-[![Crowdin](https://d322cqt584bo4o.cloudfront.net/Frames/localized.svg)](http://j.mp/FramesTranslations)
+[![JitPack](https://jitpack.io/v/com.jahirfiquitiva/LPaper.svg)](https://jitpack.io/#com.jahirfiquitiva/LPaper)
+[![Build Status](https://travis-ci.org/jahirfiquitiva/LPaper.svg?branch=master)](https://travis-ci.org/jahirfiquitiva/LPaper)
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/9747a594949f49b9a8146909868adfba)](https://www.codacy.com/app/jahirfiquitiva/LPaper?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=jahirfiquitiva/LPaper&amp;utm_campaign=Badge_Grade)
+[![Crowdin](https://d322cqt584bo4o.cloudfront.net/LPaper/localized.svg)](http://j.mp/LPaperTranslations)
 
 A full-of-features, easy-to-customize, free and open source, light-weight, Android dashboard library to create wallpapers apps with almost-null effort.
 
-<a target="_blank" href="http://j.mp/DLFramesAPK">
+<a target="_blank" href="http://j.mp/DLLPaperAPK">
 <img src="https://jahirfiquitiva.com/share/download_sample.svg?maxAge=432000" width="200"/>
 </a>
 
@@ -20,9 +20,9 @@ A full-of-features, easy-to-customize, free and open source, light-weight, Andro
 </a>
 
 ## Show some  :blue_heart:
-[![GitHub stars](https://img.shields.io/github/stars/jahirfiquitiva/Frames.svg?style=social&label=Star)](https://github.com/jahirfiquitiva/Frames)
-[![GitHub forks](https://img.shields.io/github/forks/jahirfiquitiva/Frames.svg?style=social&label=Fork)](https://github.com/jahirfiquitiva/Frames/fork)
-[![GitHub watchers](https://img.shields.io/github/watchers/jahirfiquitiva/Frames.svg?style=social&label=Watch)](https://github.com/jahirfiquitiva/Frames)
+[![GitHub stars](https://img.shields.io/github/stars/jahirfiquitiva/LPaper.svg?style=social&label=Star)](https://github.com/jahirfiquitiva/LPaper)
+[![GitHub forks](https://img.shields.io/github/forks/jahirfiquitiva/LPaper.svg?style=social&label=Fork)](https://github.com/jahirfiquitiva/LPaper/fork)
+[![GitHub watchers](https://img.shields.io/github/watchers/jahirfiquitiva/LPaper.svg?style=social&label=Watch)](https://github.com/jahirfiquitiva/LPaper)
 
 [![Follow on GitHub](https://img.shields.io/github/followers/jahirfiquitiva.svg?style=social&label=Follow)](https://github.com/jahirfiquitiva)
 [![Twitter Follow](https://img.shields.io/twitter/follow/jahirfiquitiva.svg?style=social)](https://twitter.com/jahirfiquitiva)
@@ -34,31 +34,31 @@ A full-of-features, easy-to-customize, free and open source, light-weight, Andro
 
 ### Customizable styles
 <p align="center">
-<img src="https://github.com/jahirfiquitiva/Frames/raw/master/art/3.png" height="350"/>
-<img src="https://github.com/jahirfiquitiva/Frames/raw/master/art/9.png" height="350"/>
-<img src="https://github.com/jahirfiquitiva/Frames/raw/master/art/2.png" height="350"/>
-<img src="https://github.com/jahirfiquitiva/Frames/raw/master/art/10.png" height="350"/>
+<img src="https://github.com/jahirfiquitiva/LPaper/raw/master/art/3.png" height="350"/>
+<img src="https://github.com/jahirfiquitiva/LPaper/raw/master/art/9.png" height="350"/>
+<img src="https://github.com/jahirfiquitiva/LPaper/raw/master/art/2.png" height="350"/>
+<img src="https://github.com/jahirfiquitiva/LPaper/raw/master/art/10.png" height="350"/>
 </p>
 <p align="center">
-<img src="https://github.com/jahirfiquitiva/Frames/raw/master/art/15.png" height="350"/>
-<img src="https://github.com/jahirfiquitiva/Frames/raw/master/art/1.png" height="350"/>
-<img src="https://github.com/jahirfiquitiva/Frames/raw/master/art/11.png" height="350"/>
-<img src="https://github.com/jahirfiquitiva/Frames/raw/master/art/12.png" height="350"/>
+<img src="https://github.com/jahirfiquitiva/LPaper/raw/master/art/15.png" height="350"/>
+<img src="https://github.com/jahirfiquitiva/LPaper/raw/master/art/1.png" height="350"/>
+<img src="https://github.com/jahirfiquitiva/LPaper/raw/master/art/11.png" height="350"/>
+<img src="https://github.com/jahirfiquitiva/LPaper/raw/master/art/12.png" height="350"/>
 </p>
 
 ### Full-screen Viewer / Multiple themes
 <p align="center">
-<img src="https://github.com/jahirfiquitiva/Frames/raw/master/art/4.png" height="350"/>
-<img src="https://github.com/jahirfiquitiva/Frames/raw/master/art/14.png" height="350"/>
-<img src="https://github.com/jahirfiquitiva/Frames/raw/master/art/7.png" height="350"/>
-<img src="https://github.com/jahirfiquitiva/Frames/raw/master/art/8.png" height="350"/>
+<img src="https://github.com/jahirfiquitiva/LPaper/raw/master/art/4.png" height="350"/>
+<img src="https://github.com/jahirfiquitiva/LPaper/raw/master/art/14.png" height="350"/>
+<img src="https://github.com/jahirfiquitiva/LPaper/raw/master/art/7.png" height="350"/>
+<img src="https://github.com/jahirfiquitiva/LPaper/raw/master/art/8.png" height="350"/>
 </p>
 
 ### Credits / Settings / Muzei Settings
 <p align="center">
-<img src="https://github.com/jahirfiquitiva/Frames/raw/master/art/5.png" height="350"/>
-<img src="https://github.com/jahirfiquitiva/Frames/raw/master/art/6.png" height="350"/>
-<img src="https://github.com/jahirfiquitiva/Frames/raw/master/art/13.png" height="350"/>
+<img src="https://github.com/jahirfiquitiva/LPaper/raw/master/art/5.png" height="350"/>
+<img src="https://github.com/jahirfiquitiva/LPaper/raw/master/art/6.png" height="350"/>
+<img src="https://github.com/jahirfiquitiva/LPaper/raw/master/art/13.png" height="350"/>
 </p>
 
 ---
@@ -89,15 +89,15 @@ A full-of-features, easy-to-customize, free and open source, light-weight, Andro
 - Works with Android 4.1 and newer.
 
 ## Help translating
-:page_facing_up: Help making Frames available in more languages. [Click here to go to the translation site](http://j.mp/Trnsl8Frames)
+:page_facing_up: Help making LPaper available in more languages. [Click here to go to the translation site](http://j.mp/Trnsl8LPaper)
 
 ## Changelog
-:radio_button: You can find it in the [Releases page](https://github.com/jahirfiquitiva/Frames/releases)
+:radio_button: You can find it in the [Releases page](https://github.com/jahirfiquitiva/LPaper/releases)
 
 ---
 
 # Including in your project
-Frames is available via JitPack, so getting it as simple as adding it as a dependency, like this:
+LPaper is available via JitPack, so getting it as simple as adding it as a dependency, like this:
 
 1. Add JitPack repository to your root `build.gradle` file
 ```gradle
@@ -110,15 +110,15 @@ allprojects {
 2. Add the dependency in your project `build.gradle` file
 ```gradle
 dependencies {
-    compile('com.jahirfiquitiva:Frames:{latest version}@aar') {
+    compile('com.jahirfiquitiva:LPaper:{latest version}@aar') {
         transitive = true
     }
 }
 ```
-where `{latest version}` corresponds to published version in   [![JitPack](https://jitpack.io/v/jahirfiquitiva/Frames.svg)](https://jitpack.io/#jahirfiquitiva/Frames)
+where `{latest version}` corresponds to published version in   [![JitPack](https://jitpack.io/v/jahirfiquitiva/LPaper.svg)](https://jitpack.io/#jahirfiquitiva/LPaper)
 
 ## How to implement
-:page_with_curl: Everything you need to know can be found in the **[Wiki Docs](https://github.com/jahirfiquitiva/Frames/wiki/)**
+:page_with_curl: Everything you need to know can be found in the **[Wiki Docs](https://github.com/jahirfiquitiva/LPaper/wiki/)**
 
 ## Still need help :question:
 Just join our community and make a post. We'll help you as soon as possible. [![Google+ Community](https://img.shields.io/badge/Google%2B-Community-ea4335.svg)](https://plus.google.com/communities/117748118619432374563)
@@ -179,8 +179,8 @@ This app is shared under the CreativeCommons Attribution-ShareAlike license.
 
 ## Library source
 
-As you may know, the [library source](https://github.com/jahirfiquitiva/Frames/tree/master) is open-source. This means that you can fork it and do your own modifications, but it has some conditions:
+As you may know, the [library source](https://github.com/jahirfiquitiva/LPaper/tree/master) is open-source. This means that you can fork it and do your own modifications, but it has some conditions:
 
-When using the [library source](https://github.com/jahirfiquitiva/Frames/tree/master), anything from it: errors, crashes, issues, etc. including successful builds, must be done completely by yourself and under your own risk and responsibility. I **will not** provide any help/support when using the [library source](https://github.com/jahirfiquitiva/Frames/tree/master).
+When using the [library source](https://github.com/jahirfiquitiva/LPaper/tree/master), anything from it: errors, crashes, issues, etc. including successful builds, must be done completely by yourself and under your own risk and responsibility. I **will not** provide any help/support when using the [library source](https://github.com/jahirfiquitiva/LPaper/tree/master).
 
-Finally, be sure your projects comply with the [license previously mentioned](https://github.com/jahirfiquitiva/Frames#license). Otherwise I will be taking the required legal actions. I hope you understand.
+Finally, be sure your projects comply with the [license previously mentioned](https://github.com/jahirfiquitiva/LPaper#license). Otherwise I will be taking the required legal actions. I hope you understand.

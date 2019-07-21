@@ -59,7 +59,7 @@
     <string name="refresh">Obnovit</string>
     <string name="translate">Přeložit</string>
     <string name="licenses">Licence</string>
-    <!-- Consider Frames an untranslatable word. It's the dashboard name -->
+    <!-- Consider LPaper an untranslatable word. It's the dashboard name -->
     <string name="dev_contributions">Nápověda pro vývoj</string>
     <string name="ui_contributions">Nápověda k rozhraní</string>
     <string name="settings">Nastavení</string>

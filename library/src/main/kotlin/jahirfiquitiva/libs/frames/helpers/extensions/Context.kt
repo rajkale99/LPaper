@@ -28,7 +28,7 @@ import ca.allanwang.kau.utils.darken
 import ca.allanwang.kau.utils.lighten
 import ca.allanwang.kau.utils.showChangelog
 import com.legion.lpaper.R
-import com.legion.lpaper.helpers.utils.FramesKonfigs
+import com.legion.lpaper.helpers.utils.LPaperKonfigs
 import jahirfiquitiva.libs.kext.extensions.actv
 import jahirfiquitiva.libs.kext.extensions.cardBackgroundColor
 import jahirfiquitiva.libs.kext.extensions.deleteEverything
@@ -41,11 +41,11 @@ import jahirfiquitiva.libs.kext.ui.activities.ThemedActivity
 import java.io.File
 
 @Suppress("UNCHECKED_CAST", "DEPRECATION")
-internal val Fragment.configs: FramesKonfigs
-    get() = (activity as? ThemedActivity<FramesKonfigs>)?.configs
-        ?: activity?.let { FramesKonfigs(it) }
-        ?: context?.let { FramesKonfigs(it) }
-        ?: FramesKonfigs(actv)
+internal val Fragment.configs: LPaperKonfigs
+    get() = (activity as? ThemedActivity<LPaperKonfigs>)?.configs
+        ?: activity?.let { LPaperKonfigs(it) }
+        ?: context?.let { LPaperKonfigs(it) }
+        ?: LPaperKonfigs(actv)
 
 val Context.backgroundColor: Int
     @SuppressLint("PrivateResource")
@@ -126,7 +126,7 @@ fun Context.clearDataAndCache() {
         }
     }
     clearCache()
-    FramesKonfigs(this).downloadsFolder = getString(
+    LPaperKonfigs(this).downloadsFolder = getString(
         R.string.default_download_folder,
         Environment.getExternalStorageDirectory().absolutePath)
 }

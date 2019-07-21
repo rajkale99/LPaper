@@ -62,7 +62,7 @@
     <string name="refresh">Frissítés</string>
     <string name="translate">Fordítás</string>
     <string name="licenses">Licenszek</string>
-    <!-- Consider Frames an untranslatable word. It's the dashboard name -->
+    <!-- Consider LPaper an untranslatable word. It's the dashboard name -->
     <string name="dev_contributions">Hozzájárulás a fejlesztéshez</string>
     <string name="ui_contributions">Hozzájárulás a felület fejlesztéséhez</string>
     <string name="settings">Beállítások</string>

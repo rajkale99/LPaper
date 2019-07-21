@@ -34,7 +34,7 @@ import com.legion.lpaper.R
 import com.legion.lpaper.data.models.Wallpaper
 import com.legion.lpaper.helpers.extensions.openWallpaper
 import com.legion.lpaper.helpers.utils.FL
-import com.legion.lpaper.helpers.utils.FramesKonfigs
+import com.legion.lpaper.helpers.utils.LPaperKonfigs
 import com.legion.lpaper.helpers.utils.REQUEST_CODE
 import com.legion.lpaper.ui.fragments.dialogs.QuickActionsBottomSheet
 import com.legion.lpaper.ui.fragments.dialogs.WallpaperActionsDialog
@@ -46,7 +46,7 @@ import java.io.File
 import java.text.SimpleDateFormat
 import java.util.Date
 
-abstract class BaseWallpaperActionsActivity<T : FramesKonfigs> : ActivityWFragments<T>() {
+abstract class BaseWallpaperActionsActivity<T : LPaperKonfigs> : ActivityWFragments<T>() {
     
     companion object {
         const val DOWNLOAD_ACTION_ID = 1

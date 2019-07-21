@@ -65,7 +65,7 @@
     <string name="refresh">Segarkan</string>
     <string name="translate">Terjemahkan</string>
     <string name="licenses">Lisensi</string>
-    <!-- Consider Frames an untranslatable word. It's the dashboard name -->
+    <!-- Consider LPaper an untranslatable word. It's the dashboard name -->
     <string name="frames_dashboard">Bingkai Dasbor</string>
     <string name="dev_contributions">Bantuan Pengembangan</string>
     <string name="ui_contributions">Bantuan UI</string>

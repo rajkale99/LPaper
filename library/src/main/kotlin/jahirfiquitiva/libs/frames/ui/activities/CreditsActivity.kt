@@ -33,7 +33,7 @@ import de.psdev.licensesdialog.LicensesDialog
 import de.psdev.licensesdialog.licenses.License
 import com.legion.lpaper.R
 import com.legion.lpaper.helpers.utils.FL
-import com.legion.lpaper.helpers.utils.FramesKonfigs
+import com.legion.lpaper.helpers.utils.LPaperKonfigs
 import com.legion.lpaper.ui.adapters.CreditsAdapter
 import com.legion.lpaper.ui.adapters.viewholders.Credit
 import com.legion.lpaper.ui.widgets.CustomToolbar
@@ -50,9 +50,9 @@ import jahirfiquitiva.libs.kext.extensions.stringArray
 import jahirfiquitiva.libs.kext.extensions.tint
 import jahirfiquitiva.libs.kext.ui.activities.ThemedActivity
 
-open class CreditsActivity : ThemedActivity<FramesKonfigs>() {
+open class CreditsActivity : ThemedActivity<LPaperKonfigs>() {
     
-    override val prefs: FramesKonfigs by lazy { FramesKonfigs(this) }
+    override val prefs: LPaperKonfigs by lazy { LPaperKonfigs(this) }
     override fun lightTheme(): Int = R.style.LightTheme
     override fun darkTheme(): Int = R.style.DarkTheme
     override fun amoledTheme(): Int = R.style.AmoledTheme
@@ -134,7 +134,7 @@ open class CreditsActivity : ThemedActivity<FramesKonfigs>() {
         return super.onOptionsItemSelected(item)
     }
     
-    open fun getTranslationSite(): String = "http://j.mp/Trnsl8Frames"
+    open fun getTranslationSite(): String = "http://j.mp/Trnsl8LPaper"
     
     private fun registerExtraLicenses() {
         val ccLicense = object : License() {
