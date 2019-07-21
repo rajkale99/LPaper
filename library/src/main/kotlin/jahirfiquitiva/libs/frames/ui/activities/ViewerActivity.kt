@@ -65,7 +65,7 @@ import com.legion.lpaper.data.models.Collection
 import com.legion.lpaper.data.models.Wallpaper
 import com.legion.lpaper.data.models.WallpaperInfo
 import com.legion.lpaper.data.models.db.FavoritesDatabase
-import com.legion.lpaper.helpers.extensions.framesPostponeEnterTransition
+import com.legion.lpaper.helpers.extensions.lpaperPostponeEnterTransition
 import com.legion.lpaper.helpers.extensions.safeStartPostponedEnterTransition
 import com.legion.lpaper.helpers.extensions.setNavBarMargins
 import com.legion.lpaper.helpers.extensions.toReadableByteCount
@@ -177,7 +177,7 @@ open class ViewerActivity : BaseWallpaperActionsActivity<LPaperKonfigs>() {
         navigationBarColor = Color.parseColor("#66000000")
         
         setContentView(R.layout.activity_viewer)
-        framesPostponeEnterTransition()
+        lpaperPostponeEnterTransition()
         
         currentWallPosition = savedInstanceState?.getInt(CURRENT_WALL_POSITION) ?: {
             intent?.getIntExtra(CURRENT_WALL_POSITION, 0) ?: 0

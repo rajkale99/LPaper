@@ -101,7 +101,7 @@ open class CreditsActivity : ThemedActivity<LPaperKonfigs>() {
     }
     
     @StringRes
-    open fun getDashboardTitle() = R.string.frames_dashboard
+    open fun getDashboardTitle() = R.string.lpaper_dashboard
     
     override fun onCreateOptionsMenu(menu: Menu?): Boolean {
         menuInflater.inflate(R.menu.about_settings_menu, menu)

@@ -64,7 +64,7 @@
     <string name="translate">Переклад</string>
     <string name="licenses">Ліцензія</string>
     <!-- Consider LPaper an untranslatable word. It's the dashboard name -->
-    <string name="frames_dashboard">LPaper - панель керування</string>
+    <string name="lpaper_dashboard">LPaper - панель керування</string>
     <string name="dev_contributions">Допомога в розробці</string>
     <string name="ui_contributions">Допомога в інтерфейсі</string>
     <string name="dashboard_copyright">Я - пристрасний та творчий Android-розробник і творець цієї оболонки.</string>

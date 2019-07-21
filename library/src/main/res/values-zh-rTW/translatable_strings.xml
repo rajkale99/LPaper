@@ -66,7 +66,7 @@
     <string name="translate">翻譯</string>
     <string name="licenses">授權條款</string>
     <!-- Consider LPaper an untranslatable word. It's the dashboard name -->
-    <string name="frames_dashboard">LPaper 控制台</string>
+    <string name="lpaper_dashboard">LPaper 控制台</string>
     <string name="dev_contributions">開發協助</string>
     <string name="ui_contributions">UI 設計協助</string>
     <string name="sherry_description">持續進步且活到老學到老的新女性。一位富創造力的攝影師，同時也是此應用程式的主要幕後推手。</string>

@@ -34,7 +34,7 @@ import com.legion.lpaper.R
 import com.legion.lpaper.data.models.Collection
 import com.legion.lpaper.data.models.Wallpaper
 import com.legion.lpaper.data.models.db.FavoritesDatabase
-import com.legion.lpaper.helpers.extensions.framesPostponeEnterTransition
+import com.legion.lpaper.helpers.extensions.lpaperPostponeEnterTransition
 import com.legion.lpaper.helpers.extensions.safeStartPostponedEnterTransition
 import com.legion.lpaper.helpers.utils.DATABASE_NAME
 import com.legion.lpaper.helpers.utils.FL
@@ -82,7 +82,7 @@ class CollectionActivity : BaseLPaperActivity<LPaperKonfigs>(), FavsDbManager {
     @SuppressLint("MissingSuperCall", "InlinedApi")
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        framesPostponeEnterTransition { loadFragment() }
+        lpaperPostponeEnterTransition { loadFragment() }
         
         setContentView(R.layout.activity_collection_settings)
         safeStartPostponedEnterTransition()
@@ -153,7 +153,7 @@ class CollectionActivity : BaseLPaperActivity<LPaperKonfigs>(), FavsDbManager {
     }
     
     override fun onCreateOptionsMenu(menu: Menu?): Boolean {
-        menuInflater.inflate(R.menu.frames_menu, menu)
+        menuInflater.inflate(R.menu.lpaper_menu, menu)
         
         menu?.let {
             it.setItemVisibility(R.id.donate, false)

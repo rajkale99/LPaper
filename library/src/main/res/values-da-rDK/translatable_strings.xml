@@ -66,7 +66,7 @@
     <string name="translate">Oversæt</string>
     <string name="licenses">Licenser</string>
     <!-- Consider LPaper an untranslatable word. It's the dashboard name -->
-    <string name="frames_dashboard">LPaper instrumentpanel</string>
+    <string name="lpaper_dashboard">LPaper instrumentpanel</string>
     <string name="dev_contributions">Udviklings hjælp</string>
     <string name="ui_contributions">Brugerflade hjælp</string>
     <string name="dashboard_copyright">Jeg er en passioneret og kreativ Android-udvikler og skaberen af dashboard.</string>

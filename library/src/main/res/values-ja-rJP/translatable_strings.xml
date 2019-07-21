@@ -62,7 +62,7 @@
     <string name="translate">翻訳</string>
     <string name="licenses">ライセンス</string>
     <!-- Consider LPaper an untranslatable word. It's the dashboard name -->
-    <string name="frames_dashboard">LPaper Dashboard</string>
+    <string name="lpaper_dashboard">LPaper Dashboard</string>
     <string name="dev_contributions">開発のヘルプ</string>
     <string name="ui_contributions">UIのヘルプ</string>
     <string name="dashboard_copyright">私は情熱的でクリエイティブなAndroid開発者であり、ダッシュボードの作成者です。</string>

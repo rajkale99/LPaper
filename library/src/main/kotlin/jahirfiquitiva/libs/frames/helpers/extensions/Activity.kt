@@ -23,7 +23,7 @@ import androidx.core.view.ViewCompat
 import androidx.fragment.app.FragmentActivity
 import com.legion.lpaper.R
 
-fun FragmentActivity.framesPostponeEnterTransition(
+fun FragmentActivity.lpaperPostponeEnterTransition(
     onTransitionEnd: () -> Unit = {},
     onTransitionStart: () -> Unit = {}
                                                   ) {

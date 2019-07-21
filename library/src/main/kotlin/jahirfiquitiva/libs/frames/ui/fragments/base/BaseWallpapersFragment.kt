@@ -42,7 +42,7 @@ import com.legion.lpaper.data.models.Collection
 import com.legion.lpaper.data.models.Wallpaper
 import com.legion.lpaper.helpers.extensions.concatSharedElements
 import com.legion.lpaper.helpers.extensions.configs
-import com.legion.lpaper.helpers.extensions.framesPostponeEnterTransition
+import com.legion.lpaper.helpers.extensions.lpaperPostponeEnterTransition
 import com.legion.lpaper.helpers.extensions.jfilter
 import com.legion.lpaper.helpers.extensions.maxPictureRes
 import com.legion.lpaper.helpers.extensions.maxPreload
@@ -385,7 +385,7 @@ abstract class BaseWallpapersFragment : BaseLPaperFragment<Wallpaper, WallpaperH
             })
         }
         
-        activity?.framesPostponeEnterTransition(scrollToPosition, scrollToPosition)
+        activity?.lpaperPostponeEnterTransition(scrollToPosition, scrollToPosition)
         recyclerView?.viewTreeObserver
             ?.addOnPreDrawListener(object : ViewTreeObserver.OnPreDrawListener {
                 override fun onPreDraw(): Boolean {

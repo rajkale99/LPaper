@@ -64,7 +64,7 @@
     <string name="translate">വിവർത്തനം ചെയ്യുക</string>
     <string name="licenses">ലൈസൻസുകൾ</string>
     <!-- Consider LPaper an untranslatable word. It's the dashboard name -->
-    <string name="frames_dashboard">ഫ്രെയിംസ് ഡാഷ്ബോർഡ്</string>
+    <string name="lpaper_dashboard">ഫ്രെയിംസ് ഡാഷ്ബോർഡ്</string>
     <string name="dev_contributions">വികസന സഹായം</string>
     <string name="ui_contributions">യു ഐ സഹായം</string>
     <string name="sherry_description">ഈ ഡാഷ്ബോഡ്ഡ്  സാധ്യമാക്കിയ, ക്രീറ്റിവ് ഫോട്ടോഗ്രാഫർ ആയ വനിത. </string>

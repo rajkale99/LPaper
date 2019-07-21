@@ -66,7 +66,7 @@
     <string name="translate">Käännä</string>
     <string name="licenses">Lisenssit</string>
     <!-- Consider LPaper an untranslatable word. It's the dashboard name -->
-    <string name="frames_dashboard">LPaper -ohjauspaneeli</string>
+    <string name="lpaper_dashboard">LPaper -ohjauspaneeli</string>
     <string name="dev_contributions">Kehityksen avustajat</string>
     <string name="ui_contributions">Käyttöliittymän avustukset</string>
     <string name="dashboard_copyright">Olen intohimoinen ja luova Android-kehittäjä sekä tämän hallintapaneelin luoja.</string>

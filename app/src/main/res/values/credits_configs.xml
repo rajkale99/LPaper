@@ -21,22 +21,22 @@
     </string-array>
 
     <string-array name="credits_titles">
-        <item>Your Name</item>
-        <item>Another Name</item>
+        <item>Raj Kale</item>
+        <item>Prashant</item>
     </string-array>
 
     <string-array name="credits_descriptions">
-        <item>Details of first credited person</item>
-        <item>Details of another credited person</item>
+        <item>LegionOS Lead Developer</item>
+        <item>Wallpapers Maintainer</item>
     </string-array>
 
     <string-array name="credits_buttons">
-        <item>Google+|Instagram</item>
-        <item>Facebook|Website|Twitter</item>
+        <item>Telegram|Website</item>
+        <item>Telegram</item>
     </string-array>
 
     <string-array name="credits_links">
-        <item>https://www.google.com/+JahirFiquitivaR|http://instagram.com/jahirfiquitiva</item>
-        <item>https://facebook.com/|https://jahirfiquitiva.com/|https://twitter.com/jahirfiquitiva</item>
+        <item>https://www.t.me/rajkale99|https://t.me/legionupdates|https://legionos.ml</item>
+        <item>httos://t.me/prashantt41</item>
     </string-array>
 </resources>

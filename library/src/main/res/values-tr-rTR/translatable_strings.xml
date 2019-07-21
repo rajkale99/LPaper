@@ -66,7 +66,7 @@
     <string name="translate">Çeviri</string>
     <string name="licenses">Lisanslar</string>
     <!-- Consider LPaper an untranslatable word. It's the dashboard name -->
-    <string name="frames_dashboard">Çerçevelenmiş pano</string>
+    <string name="lpaper_dashboard">Çerçevelenmiş pano</string>
     <string name="dev_contributions">Geliştirme Yardımı</string>
     <string name="ui_contributions">UI Yardımı</string>
     <string name="dashboard_copyright">Tutkulu ve yaratıcı bir Android geliştiricisi ve arayüzün yaratıcısıyım.</string>

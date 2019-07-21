@@ -16,8 +16,8 @@
 ext.details = [
         // Core app details
         appId   : 'LPaper',
-        appGroup: 'jahirfiquitiva.apps',
-        libGroup: 'jahirfiquitiva.libs',
+        appGroup: 'com.legion',
+        libGroup: 'com.legion',
 ]
 
 ext.versions = [

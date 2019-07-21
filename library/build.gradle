@@ -71,7 +71,7 @@ android {
     }
 }
 
-apply from: '../frames.gradle'
+apply from: '../lpaper.gradle'
 
 tasks.whenTaskAdded { task ->
     if (task.name.contains("lint") || task.name.contains("test")) {

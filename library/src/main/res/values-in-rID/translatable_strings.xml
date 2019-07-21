@@ -66,7 +66,7 @@
     <string name="translate">Terjemahkan</string>
     <string name="licenses">Lisensi</string>
     <!-- Consider LPaper an untranslatable word. It's the dashboard name -->
-    <string name="frames_dashboard">Bingkai Dasbor</string>
+    <string name="lpaper_dashboard">Bingkai Dasbor</string>
     <string name="dev_contributions">Bantuan Pengembangan</string>
     <string name="ui_contributions">Bantuan UI</string>
     <string name="dashboard_copyright">Saya adalah seorang pengembang Android yang kreatif dan penuh gairah serta pencipta dari dasbor tersebut.</string>
