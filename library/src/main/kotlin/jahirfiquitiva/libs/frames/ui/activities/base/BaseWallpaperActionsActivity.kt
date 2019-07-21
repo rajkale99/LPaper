@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package jahirfiquitiva.libs.frames.ui.activities.base
+package com.legion.lpaper.ui.activities.base
 
 import android.Manifest
 import android.annotation.SuppressLint
@@ -30,14 +30,14 @@ import com.fondesa.kpermissions.extension.permissionsBuilder
 import com.fondesa.kpermissions.request.runtime.nonce.PermissionNonce
 import com.google.android.material.snackbar.Snackbar
 import jahirfiquitiva.libs.archhelpers.extensions.mdDialog
-import jahirfiquitiva.libs.frames.R
-import jahirfiquitiva.libs.frames.data.models.Wallpaper
-import jahirfiquitiva.libs.frames.helpers.extensions.openWallpaper
-import jahirfiquitiva.libs.frames.helpers.utils.FL
-import jahirfiquitiva.libs.frames.helpers.utils.FramesKonfigs
-import jahirfiquitiva.libs.frames.helpers.utils.REQUEST_CODE
-import jahirfiquitiva.libs.frames.ui.fragments.dialogs.QuickActionsBottomSheet
-import jahirfiquitiva.libs.frames.ui.fragments.dialogs.WallpaperActionsDialog
+import com.legion.lpaper.R
+import com.legion.lpaper.data.models.Wallpaper
+import com.legion.lpaper.helpers.extensions.openWallpaper
+import com.legion.lpaper.helpers.utils.FL
+import com.legion.lpaper.helpers.utils.FramesKonfigs
+import com.legion.lpaper.helpers.utils.REQUEST_CODE
+import com.legion.lpaper.ui.fragments.dialogs.QuickActionsBottomSheet
+import com.legion.lpaper.ui.fragments.dialogs.WallpaperActionsDialog
 import jahirfiquitiva.libs.kext.extensions.formatCorrectly
 import jahirfiquitiva.libs.kext.extensions.getAppName
 import jahirfiquitiva.libs.kext.extensions.getUri

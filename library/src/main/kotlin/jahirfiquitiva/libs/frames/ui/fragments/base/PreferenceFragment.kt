@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package jahirfiquitiva.libs.frames.ui.fragments.base
+package com.legion.lpaper.ui.fragments.base
 
 import android.annotation.SuppressLint
 import android.app.Activity

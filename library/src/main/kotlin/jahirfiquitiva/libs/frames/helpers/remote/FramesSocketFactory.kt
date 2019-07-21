@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package jahirfiquitiva.libs.frames.helpers.remote
+package com.legion.lpaper.helpers.remote
 
 import android.annotation.SuppressLint
 import java.io.IOException

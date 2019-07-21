@@ -13,11 +13,11 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package jahirfiquitiva.libs.frames.data.models.db
+package com.legion.lpaper.data.models.db
 
 import androidx.room.Database
 import androidx.room.RoomDatabase
-import jahirfiquitiva.libs.frames.data.models.Wallpaper
+import com.legion.lpaper.data.models.Wallpaper
 
 // TODO: Be sure to increment update if one changes Wallpaper class structure
 @Database(entities = [(Wallpaper::class)], version = 8, exportSchema = false)

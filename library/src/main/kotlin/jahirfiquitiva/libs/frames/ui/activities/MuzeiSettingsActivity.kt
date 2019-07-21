@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package jahirfiquitiva.libs.frames.ui.activities
+package com.legion.lpaper.ui.activities
 
 import android.annotation.SuppressLint
 import android.content.Intent
@@ -31,13 +31,13 @@ import ca.allanwang.kau.utils.gone
 import ca.allanwang.kau.utils.isNetworkAvailable
 import com.afollestad.materialdialogs.MaterialDialog
 import jahirfiquitiva.libs.archhelpers.extensions.mdDialog
-import jahirfiquitiva.libs.frames.R
-import jahirfiquitiva.libs.frames.data.models.Collection
-import jahirfiquitiva.libs.frames.data.services.FramesArtProvider
-import jahirfiquitiva.libs.frames.helpers.utils.FramesKonfigs
-import jahirfiquitiva.libs.frames.ui.widgets.CustomToolbar
-import jahirfiquitiva.libs.frames.viewmodels.CollectionsViewModel
-import jahirfiquitiva.libs.frames.viewmodels.WallpapersViewModel
+import com.legion.lpaper.R
+import com.legion.lpaper.data.models.Collection
+import com.legion.lpaper.data.services.FramesArtProvider
+import com.legion.lpaper.helpers.utils.FramesKonfigs
+import com.legion.lpaper.ui.widgets.CustomToolbar
+import com.legion.lpaper.viewmodels.CollectionsViewModel
+import com.legion.lpaper.viewmodels.WallpapersViewModel
 import jahirfiquitiva.libs.kext.extensions.bind
 import jahirfiquitiva.libs.kext.extensions.boolean
 import jahirfiquitiva.libs.kext.extensions.dividerColor

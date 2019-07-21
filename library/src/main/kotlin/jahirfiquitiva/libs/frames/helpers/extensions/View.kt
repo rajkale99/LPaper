@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package jahirfiquitiva.libs.frames.helpers.extensions
+package com.legion.lpaper.helpers.extensions
 
 import android.app.Activity
 import android.os.Build
@@ -22,7 +22,7 @@ import android.widget.FrameLayout
 import androidx.core.view.ViewCompat
 import ca.allanwang.kau.utils.dpToPx
 import com.google.android.material.floatingactionbutton.FloatingActionButton
-import jahirfiquitiva.libs.frames.R
+import com.legion.lpaper.R
 import jahirfiquitiva.libs.kext.extensions.currentRotation
 import jahirfiquitiva.libs.kext.extensions.isInPortraitMode
 import jahirfiquitiva.libs.kext.extensions.navigationBarHeight

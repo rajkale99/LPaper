@@ -13,11 +13,11 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package jahirfiquitiva.libs.frames.helpers.utils
+package com.legion.lpaper.helpers.utils
 
 import android.content.Context
 import android.os.Environment
-import jahirfiquitiva.libs.frames.R
+import com.legion.lpaper.R
 import jahirfiquitiva.libs.kext.extensions.boolean
 import jahirfiquitiva.libs.kext.extensions.isInHorizontalMode
 import jahirfiquitiva.libs.kext.helpers.Prefs

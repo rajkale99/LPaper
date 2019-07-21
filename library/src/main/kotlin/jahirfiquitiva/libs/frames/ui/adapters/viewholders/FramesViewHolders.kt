@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package jahirfiquitiva.libs.frames.ui.adapters.viewholders
+package com.legion.lpaper.ui.adapters.viewholders
 
 import android.animation.ValueAnimator
 import android.graphics.Color
@@ -32,14 +32,14 @@ import ca.allanwang.kau.utils.visible
 import ca.allanwang.kau.utils.withAlpha
 import com.bumptech.glide.RequestManager
 import com.bumptech.glide.util.ViewPreloadSizeProvider
-import jahirfiquitiva.libs.frames.R
-import jahirfiquitiva.libs.frames.data.models.Collection
-import jahirfiquitiva.libs.frames.data.models.Wallpaper
-import jahirfiquitiva.libs.frames.helpers.extensions.createHeartIcon
-import jahirfiquitiva.libs.frames.helpers.extensions.tilesColor
-import jahirfiquitiva.libs.frames.helpers.glide.GlidePaletteListener
-import jahirfiquitiva.libs.frames.helpers.glide.loadPicture
-import jahirfiquitiva.libs.frames.helpers.glide.smoothAnimator
+import com.legion.lpaper.R
+import com.legion.lpaper.data.models.Collection
+import com.legion.lpaper.data.models.Wallpaper
+import com.legion.lpaper.helpers.extensions.createHeartIcon
+import com.legion.lpaper.helpers.extensions.tilesColor
+import com.legion.lpaper.helpers.glide.GlidePaletteListener
+import com.legion.lpaper.helpers.glide.loadPicture
+import com.legion.lpaper.helpers.glide.smoothAnimator
 import jahirfiquitiva.libs.kext.extensions.bestSwatch
 import jahirfiquitiva.libs.kext.extensions.bind
 import jahirfiquitiva.libs.kext.extensions.boolean

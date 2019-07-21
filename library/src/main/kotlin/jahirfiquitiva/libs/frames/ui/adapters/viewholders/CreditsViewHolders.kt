@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package jahirfiquitiva.libs.frames.ui.adapters.viewholders
+package com.legion.lpaper.ui.adapters.viewholders
 
 import android.util.TypedValue
 import android.view.View
@@ -28,8 +28,8 @@ import ca.allanwang.kau.utils.tint
 import ca.allanwang.kau.utils.visible
 import com.afollestad.sectionedrecyclerview.SectionedViewHolder
 import com.bumptech.glide.RequestManager
-import jahirfiquitiva.libs.frames.R
-import jahirfiquitiva.libs.frames.helpers.glide.loadPicture
+import com.legion.lpaper.R
+import com.legion.lpaper.helpers.glide.loadPicture
 import jahirfiquitiva.libs.kext.extensions.accentColor
 import jahirfiquitiva.libs.kext.extensions.activeIconsColor
 import jahirfiquitiva.libs.kext.extensions.bind

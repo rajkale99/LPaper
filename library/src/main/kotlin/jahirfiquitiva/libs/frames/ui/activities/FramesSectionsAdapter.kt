@@ -13,13 +13,13 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package jahirfiquitiva.libs.frames.ui.activities
+package com.legion.lpaper.ui.activities
 
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.FragmentManager
-import jahirfiquitiva.libs.frames.ui.fragments.CollectionsFragment
-import jahirfiquitiva.libs.frames.ui.fragments.FavoritesFragment
-import jahirfiquitiva.libs.frames.ui.fragments.WallpapersFragment
+import com.legion.lpaper.ui.fragments.CollectionsFragment
+import com.legion.lpaper.ui.fragments.FavoritesFragment
+import com.legion.lpaper.ui.fragments.WallpapersFragment
 import jahirfiquitiva.libs.kext.ui.fragments.adapters.DynamicFragmentsPagerAdapter
 
 internal class FramesSectionsAdapter(

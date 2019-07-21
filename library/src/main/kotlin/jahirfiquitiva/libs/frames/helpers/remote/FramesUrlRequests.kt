@@ -13,13 +13,13 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package jahirfiquitiva.libs.frames.helpers.remote
+package com.legion.lpaper.helpers.remote
 
 import android.graphics.BitmapFactory
 import android.os.Build
 import android.util.Log
-import jahirfiquitiva.libs.frames.data.models.Dimension
-import jahirfiquitiva.libs.frames.data.models.WallpaperInfo
+import com.legion.lpaper.data.models.Dimension
+import com.legion.lpaper.data.models.WallpaperInfo
 import java.io.BufferedInputStream
 import java.io.BufferedReader
 import java.io.InputStreamReader

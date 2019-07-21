@@ -13,20 +13,20 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package jahirfiquitiva.libs.frames.ui.adapters
+package com.legion.lpaper.ui.adapters
 
 import android.view.ViewGroup
 import androidx.palette.graphics.Palette
 import ca.allanwang.kau.utils.inflate
 import com.afollestad.sectionedrecyclerview.SectionedRecyclerViewAdapter
 import com.afollestad.sectionedrecyclerview.SectionedViewHolder
-import jahirfiquitiva.libs.frames.R
-import jahirfiquitiva.libs.frames.data.models.Collection
-import jahirfiquitiva.libs.frames.helpers.extensions.jfilter
-import jahirfiquitiva.libs.frames.ui.adapters.viewholders.SectionedHeaderViewHolder
-import jahirfiquitiva.libs.frames.ui.adapters.viewholders.WallpaperDetail
-import jahirfiquitiva.libs.frames.ui.adapters.viewholders.WallpaperInfoHolder
-import jahirfiquitiva.libs.frames.ui.adapters.viewholders.WallpaperPaletteHolder
+import com.legion.lpaper.R
+import com.legion.lpaper.data.models.Collection
+import com.legion.lpaper.helpers.extensions.jfilter
+import com.legion.lpaper.ui.adapters.viewholders.SectionedHeaderViewHolder
+import com.legion.lpaper.ui.adapters.viewholders.WallpaperDetail
+import com.legion.lpaper.ui.adapters.viewholders.WallpaperInfoHolder
+import com.legion.lpaper.ui.adapters.viewholders.WallpaperPaletteHolder
 import jahirfiquitiva.libs.kext.extensions.hasContent
 
 class WallpaperInfoAdapter(private val listener: (forCollection: Boolean, color: Int) -> Unit = { _, _ -> }) :

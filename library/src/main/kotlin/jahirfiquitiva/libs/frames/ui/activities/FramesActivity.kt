@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package jahirfiquitiva.libs.frames.ui.activities
+package com.legion.lpaper.ui.activities
 
 import android.content.Intent
 import android.graphics.Color
@@ -30,19 +30,19 @@ import ca.allanwang.kau.utils.tint
 import com.google.android.material.snackbar.Snackbar
 import com.google.android.material.tabs.TabLayout
 import jahirfiquitiva.libs.archhelpers.extensions.lazyViewModel
-import jahirfiquitiva.libs.frames.R
-import jahirfiquitiva.libs.frames.data.models.Wallpaper
-import jahirfiquitiva.libs.frames.data.models.db.FavoritesDatabase
-import jahirfiquitiva.libs.frames.helpers.extensions.showChanges
-import jahirfiquitiva.libs.frames.helpers.utils.DATABASE_NAME
-import jahirfiquitiva.libs.frames.helpers.utils.FramesKonfigs
-import jahirfiquitiva.libs.frames.ui.activities.base.BaseFramesActivity
-import jahirfiquitiva.libs.frames.ui.activities.base.FavsDbManager
-import jahirfiquitiva.libs.frames.ui.fragments.base.BaseDatabaseFragment
-import jahirfiquitiva.libs.frames.ui.fragments.base.BaseFramesFragment
-import jahirfiquitiva.libs.frames.ui.fragments.base.BaseWallpapersFragment
-import jahirfiquitiva.libs.frames.ui.widgets.CustomToolbar
-import jahirfiquitiva.libs.frames.viewmodels.FavoritesViewModel
+import com.legion.lpaper.R
+import com.legion.lpaper.data.models.Wallpaper
+import com.legion.lpaper.data.models.db.FavoritesDatabase
+import com.legion.lpaper.helpers.extensions.showChanges
+import com.legion.lpaper.helpers.utils.DATABASE_NAME
+import com.legion.lpaper.helpers.utils.FramesKonfigs
+import com.legion.lpaper.ui.activities.base.BaseFramesActivity
+import com.legion.lpaper.ui.activities.base.FavsDbManager
+import com.legion.lpaper.ui.fragments.base.BaseDatabaseFragment
+import com.legion.lpaper.ui.fragments.base.BaseFramesFragment
+import com.legion.lpaper.ui.fragments.base.BaseWallpapersFragment
+import com.legion.lpaper.ui.widgets.CustomToolbar
+import com.legion.lpaper.viewmodels.FavoritesViewModel
 import jahirfiquitiva.libs.kext.extensions.accentColor
 import jahirfiquitiva.libs.kext.extensions.bind
 import jahirfiquitiva.libs.kext.extensions.boolean

@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package jahirfiquitiva.libs.frames.ui.widgets
+package com.legion.lpaper.ui.widgets
 
 import android.view.View
 import androidx.core.app.SharedElementCallback

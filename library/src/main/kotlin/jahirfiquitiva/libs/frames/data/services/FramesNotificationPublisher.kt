@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package jahirfiquitiva.libs.frames.data.services
+package com.legion.lpaper.data.services
 
 import android.app.NotificationManager
 import android.app.PendingIntent
@@ -22,8 +22,8 @@ import android.content.Intent
 import android.media.RingtoneManager
 import androidx.core.app.NotificationCompat
 import androidx.core.content.ContextCompat
-import jahirfiquitiva.libs.frames.R
-import jahirfiquitiva.libs.frames.helpers.utils.FramesKonfigs
+import com.legion.lpaper.R
+import com.legion.lpaper.helpers.utils.FramesKonfigs
 import jahirfiquitiva.libs.kext.extensions.getAppName
 import jahirfiquitiva.libs.kext.extensions.hasContent
 

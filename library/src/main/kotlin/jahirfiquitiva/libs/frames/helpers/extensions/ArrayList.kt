@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package jahirfiquitiva.libs.frames.helpers.extensions
+package com.legion.lpaper.helpers.extensions
 
 inline fun <reified T> ArrayList<T>.jfilter(evaluate: (T) -> Boolean): ArrayList<T> {
     val newList = ArrayList<T>()

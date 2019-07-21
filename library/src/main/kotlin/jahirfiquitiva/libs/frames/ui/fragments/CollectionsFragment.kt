@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package jahirfiquitiva.libs.frames.ui.fragments
+package com.legion.lpaper.ui.fragments
 
 import android.annotation.SuppressLint
 import android.content.Intent
@@ -26,21 +26,21 @@ import com.bumptech.glide.Glide
 import com.bumptech.glide.integration.recyclerview.RecyclerViewPreloader
 import com.bumptech.glide.util.ViewPreloadSizeProvider
 import com.pluscubed.recyclerfastscroll.RecyclerFastScroller
-import jahirfiquitiva.libs.frames.R
-import jahirfiquitiva.libs.frames.data.models.Collection
-import jahirfiquitiva.libs.frames.data.models.Wallpaper
-import jahirfiquitiva.libs.frames.helpers.extensions.configs
-import jahirfiquitiva.libs.frames.helpers.extensions.jfilter
-import jahirfiquitiva.libs.frames.helpers.extensions.maxPreload
-import jahirfiquitiva.libs.frames.helpers.utils.FL
-import jahirfiquitiva.libs.frames.ui.activities.CollectionActivity
-import jahirfiquitiva.libs.frames.ui.activities.base.FavsDbManager
-import jahirfiquitiva.libs.frames.ui.adapters.CollectionsAdapter
-import jahirfiquitiva.libs.frames.ui.adapters.viewholders.CollectionHolder
-import jahirfiquitiva.libs.frames.ui.adapters.viewholders.FramesViewClickListener
-import jahirfiquitiva.libs.frames.ui.fragments.base.BaseFramesFragment
-import jahirfiquitiva.libs.frames.ui.widgets.EmptyViewRecyclerView
-import jahirfiquitiva.libs.frames.ui.widgets.EndlessRecyclerViewScrollListener
+import com.legion.lpaper.R
+import com.legion.lpaper.data.models.Collection
+import com.legion.lpaper.data.models.Wallpaper
+import com.legion.lpaper.helpers.extensions.configs
+import com.legion.lpaper.helpers.extensions.jfilter
+import com.legion.lpaper.helpers.extensions.maxPreload
+import com.legion.lpaper.helpers.utils.FL
+import com.legion.lpaper.ui.activities.CollectionActivity
+import com.legion.lpaper.ui.activities.base.FavsDbManager
+import com.legion.lpaper.ui.adapters.CollectionsAdapter
+import com.legion.lpaper.ui.adapters.viewholders.CollectionHolder
+import com.legion.lpaper.ui.adapters.viewholders.FramesViewClickListener
+import com.legion.lpaper.ui.fragments.base.BaseFramesFragment
+import com.legion.lpaper.ui.widgets.EmptyViewRecyclerView
+import com.legion.lpaper.ui.widgets.EndlessRecyclerViewScrollListener
 import jahirfiquitiva.libs.kext.extensions.accentColor
 import jahirfiquitiva.libs.kext.extensions.activity
 import jahirfiquitiva.libs.kext.extensions.boolean

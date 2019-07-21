@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package jahirfiquitiva.libs.frames.ui.fragments.dialogs
+package com.legion.lpaper.ui.fragments.dialogs
 
 import android.content.ClipData
 import android.content.ClipboardManager
@@ -32,12 +32,12 @@ import ca.allanwang.kau.utils.setPaddingTop
 import ca.allanwang.kau.utils.toHexString
 import ca.allanwang.kau.utils.toast
 import ca.allanwang.kau.utils.visible
-import jahirfiquitiva.libs.frames.R
-import jahirfiquitiva.libs.frames.data.models.Collection
-import jahirfiquitiva.libs.frames.ui.activities.CollectionActivity
-import jahirfiquitiva.libs.frames.ui.activities.base.BaseFramesActivity
-import jahirfiquitiva.libs.frames.ui.adapters.WallpaperInfoAdapter
-import jahirfiquitiva.libs.frames.ui.adapters.viewholders.WallpaperDetail
+import com.legion.lpaper.R
+import com.legion.lpaper.data.models.Collection
+import com.legion.lpaper.ui.activities.CollectionActivity
+import com.legion.lpaper.ui.activities.base.BaseFramesActivity
+import com.legion.lpaper.ui.adapters.WallpaperInfoAdapter
+import com.legion.lpaper.ui.adapters.viewholders.WallpaperDetail
 import jahirfiquitiva.libs.kext.extensions.isInHorizontalMode
 
 class InfoBottomSheet : BaseBottomSheet() {

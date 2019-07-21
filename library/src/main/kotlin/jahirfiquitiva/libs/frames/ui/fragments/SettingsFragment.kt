@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package jahirfiquitiva.libs.frames.ui.fragments
+package com.legion.lpaper.ui.fragments
 
 import android.Manifest
 import android.annotation.SuppressLint
@@ -33,14 +33,14 @@ import com.fondesa.kpermissions.extension.permissionsBuilder
 import com.fondesa.kpermissions.request.runtime.nonce.PermissionNonce
 import com.google.android.material.snackbar.Snackbar
 import jahirfiquitiva.libs.archhelpers.extensions.mdDialog
-import jahirfiquitiva.libs.frames.R
-import jahirfiquitiva.libs.frames.data.models.db.FavoritesDatabase
-import jahirfiquitiva.libs.frames.helpers.extensions.clearDataAndCache
-import jahirfiquitiva.libs.frames.helpers.extensions.configs
-import jahirfiquitiva.libs.frames.helpers.extensions.dataCacheSize
-import jahirfiquitiva.libs.frames.helpers.utils.DATABASE_NAME
-import jahirfiquitiva.libs.frames.ui.activities.SettingsActivity
-import jahirfiquitiva.libs.frames.ui.fragments.base.PreferenceFragment
+import com.legion.lpaper.R
+import com.legion.lpaper.data.models.db.FavoritesDatabase
+import com.legion.lpaper.helpers.extensions.clearDataAndCache
+import com.legion.lpaper.helpers.extensions.configs
+import com.legion.lpaper.helpers.extensions.dataCacheSize
+import com.legion.lpaper.helpers.utils.DATABASE_NAME
+import com.legion.lpaper.ui.activities.SettingsActivity
+import com.legion.lpaper.ui.fragments.base.PreferenceFragment
 import jahirfiquitiva.libs.kext.extensions.activity
 import jahirfiquitiva.libs.kext.extensions.boolean
 import jahirfiquitiva.libs.kext.extensions.getAppName

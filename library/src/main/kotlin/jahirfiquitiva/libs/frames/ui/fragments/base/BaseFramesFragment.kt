@@ -13,17 +13,17 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package jahirfiquitiva.libs.frames.ui.fragments.base
+package com.legion.lpaper.ui.fragments.base
 
 import android.content.Context
 import androidx.annotation.CallSuper
 import androidx.recyclerview.widget.RecyclerView
 import jahirfiquitiva.libs.archhelpers.extensions.getViewModel
-import jahirfiquitiva.libs.frames.data.models.Collection
-import jahirfiquitiva.libs.frames.data.models.Wallpaper
-import jahirfiquitiva.libs.frames.ui.activities.base.FavsDbManager
-import jahirfiquitiva.libs.frames.viewmodels.CollectionsViewModel
-import jahirfiquitiva.libs.frames.viewmodels.WallpapersViewModel
+import com.legion.lpaper.data.models.Collection
+import com.legion.lpaper.data.models.Wallpaper
+import com.legion.lpaper.ui.activities.base.FavsDbManager
+import com.legion.lpaper.viewmodels.CollectionsViewModel
+import com.legion.lpaper.viewmodels.WallpapersViewModel
 import jahirfiquitiva.libs.kext.extensions.SafeAccess
 import jahirfiquitiva.libs.kext.extensions.context
 

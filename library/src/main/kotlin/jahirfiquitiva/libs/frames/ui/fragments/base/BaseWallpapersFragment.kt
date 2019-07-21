@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package jahirfiquitiva.libs.frames.ui.fragments.base
+package com.legion.lpaper.ui.fragments.base
 
 import android.annotation.TargetApi
 import android.content.Context
@@ -37,29 +37,29 @@ import com.bumptech.glide.Glide
 import com.bumptech.glide.integration.recyclerview.RecyclerViewPreloader
 import com.bumptech.glide.util.ViewPreloadSizeProvider
 import com.pluscubed.recyclerfastscroll.RecyclerFastScroller
-import jahirfiquitiva.libs.frames.R
-import jahirfiquitiva.libs.frames.data.models.Collection
-import jahirfiquitiva.libs.frames.data.models.Wallpaper
-import jahirfiquitiva.libs.frames.helpers.extensions.concatSharedElements
-import jahirfiquitiva.libs.frames.helpers.extensions.configs
-import jahirfiquitiva.libs.frames.helpers.extensions.framesPostponeEnterTransition
-import jahirfiquitiva.libs.frames.helpers.extensions.jfilter
-import jahirfiquitiva.libs.frames.helpers.extensions.maxPictureRes
-import jahirfiquitiva.libs.frames.helpers.extensions.maxPreload
-import jahirfiquitiva.libs.frames.helpers.extensions.safeStartPostponedEnterTransition
-import jahirfiquitiva.libs.frames.helpers.utils.FL
-import jahirfiquitiva.libs.frames.helpers.utils.MAX_WALLPAPERS_LOAD
-import jahirfiquitiva.libs.frames.helpers.utils.TransitionCallback
-import jahirfiquitiva.libs.frames.ui.activities.ViewerActivity
-import jahirfiquitiva.libs.frames.ui.activities.base.BaseFramesActivity
-import jahirfiquitiva.libs.frames.ui.activities.base.FavsDbManager
-import jahirfiquitiva.libs.frames.ui.adapters.WallpapersAdapter
-import jahirfiquitiva.libs.frames.ui.adapters.viewholders.FramesViewClickListener
-import jahirfiquitiva.libs.frames.ui.adapters.viewholders.WallpaperHolder
-import jahirfiquitiva.libs.frames.ui.widgets.EmptyViewRecyclerView
-import jahirfiquitiva.libs.frames.ui.widgets.EndlessRecyclerViewScrollListener
-import jahirfiquitiva.libs.frames.ui.widgets.FeaturedWallSpacingItemDecoration
-import jahirfiquitiva.libs.frames.ui.widgets.WallpaperSharedElementCallback
+import com.legion.lpaper.R
+import com.legion.lpaper.data.models.Collection
+import com.legion.lpaper.data.models.Wallpaper
+import com.legion.lpaper.helpers.extensions.concatSharedElements
+import com.legion.lpaper.helpers.extensions.configs
+import com.legion.lpaper.helpers.extensions.framesPostponeEnterTransition
+import com.legion.lpaper.helpers.extensions.jfilter
+import com.legion.lpaper.helpers.extensions.maxPictureRes
+import com.legion.lpaper.helpers.extensions.maxPreload
+import com.legion.lpaper.helpers.extensions.safeStartPostponedEnterTransition
+import com.legion.lpaper.helpers.utils.FL
+import com.legion.lpaper.helpers.utils.MAX_WALLPAPERS_LOAD
+import com.legion.lpaper.helpers.utils.TransitionCallback
+import com.legion.lpaper.ui.activities.ViewerActivity
+import com.legion.lpaper.ui.activities.base.BaseFramesActivity
+import com.legion.lpaper.ui.activities.base.FavsDbManager
+import com.legion.lpaper.ui.adapters.WallpapersAdapter
+import com.legion.lpaper.ui.adapters.viewholders.FramesViewClickListener
+import com.legion.lpaper.ui.adapters.viewholders.WallpaperHolder
+import com.legion.lpaper.ui.widgets.EmptyViewRecyclerView
+import com.legion.lpaper.ui.widgets.EndlessRecyclerViewScrollListener
+import com.legion.lpaper.ui.widgets.FeaturedWallSpacingItemDecoration
+import com.legion.lpaper.ui.widgets.WallpaperSharedElementCallback
 import jahirfiquitiva.libs.kext.extensions.accentColor
 import jahirfiquitiva.libs.kext.extensions.activity
 import jahirfiquitiva.libs.kext.extensions.cardBackgroundColor

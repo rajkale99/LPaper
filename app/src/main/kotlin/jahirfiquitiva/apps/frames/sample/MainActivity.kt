@@ -16,7 +16,7 @@
 package jahirfiquitiva.apps.frames.sample
 
 import com.github.javiersantos.piracychecker.PiracyChecker
-import jahirfiquitiva.libs.frames.ui.activities.FramesActivity
+import com.legion.lpaper.ui.activities.FramesActivity
 
 class MainActivity : FramesActivity() {
     /**

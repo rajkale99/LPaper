@@ -13,12 +13,12 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package jahirfiquitiva.libs.frames.ui.fragments
+package com.legion.lpaper.ui.fragments
 
-import jahirfiquitiva.libs.frames.data.models.Collection
-import jahirfiquitiva.libs.frames.data.models.Wallpaper
-import jahirfiquitiva.libs.frames.helpers.extensions.jfilter
-import jahirfiquitiva.libs.frames.ui.fragments.base.BaseWallpapersFragment
+import com.legion.lpaper.data.models.Collection
+import com.legion.lpaper.data.models.Wallpaper
+import com.legion.lpaper.helpers.extensions.jfilter
+import com.legion.lpaper.ui.fragments.base.BaseWallpapersFragment
 import jahirfiquitiva.libs.kext.extensions.formatCorrectly
 
 internal class WallpapersInCollectionFragment : BaseWallpapersFragment() {

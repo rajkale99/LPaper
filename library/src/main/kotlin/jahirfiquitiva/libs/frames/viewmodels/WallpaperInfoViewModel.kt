@@ -13,12 +13,12 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package jahirfiquitiva.libs.frames.viewmodels
+package com.legion.lpaper.viewmodels
 
 import jahirfiquitiva.libs.archhelpers.viewmodels.ItemViewModel
-import jahirfiquitiva.libs.frames.data.models.Wallpaper
-import jahirfiquitiva.libs.frames.data.models.WallpaperInfo
-import jahirfiquitiva.libs.frames.helpers.remote.FramesUrlRequests
+import com.legion.lpaper.data.models.Wallpaper
+import com.legion.lpaper.data.models.WallpaperInfo
+import com.legion.lpaper.helpers.remote.FramesUrlRequests
 import jahirfiquitiva.libs.kext.extensions.hasContent
 
 class WallpaperInfoViewModel : ItemViewModel<Wallpaper, WallpaperInfo>() {

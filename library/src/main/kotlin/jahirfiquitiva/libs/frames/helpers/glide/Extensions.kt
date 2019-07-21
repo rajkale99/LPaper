@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package jahirfiquitiva.libs.frames.helpers.glide
+package com.legion.lpaper.helpers.glide
 
 import android.content.Context
 import android.graphics.drawable.Drawable
@@ -32,7 +32,7 @@ import com.bumptech.glide.load.resource.drawable.DrawableTransitionOptions
 import com.bumptech.glide.request.RequestListener
 import com.bumptech.glide.request.RequestOptions
 import com.bumptech.glide.request.transition.NoTransition
-import jahirfiquitiva.libs.frames.helpers.utils.FramesKonfigs
+import com.legion.lpaper.helpers.utils.FramesKonfigs
 import jahirfiquitiva.libs.kext.extensions.isLowRamDevice
 
 fun RequestManager.loadPicture(

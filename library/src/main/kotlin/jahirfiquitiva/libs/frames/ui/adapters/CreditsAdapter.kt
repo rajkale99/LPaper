@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package jahirfiquitiva.libs.frames.ui.adapters
+package com.legion.lpaper.ui.adapters
 
 import android.view.ViewGroup
 import androidx.annotation.StringRes
@@ -21,12 +21,12 @@ import ca.allanwang.kau.utils.inflate
 import com.afollestad.sectionedrecyclerview.SectionedRecyclerViewAdapter
 import com.afollestad.sectionedrecyclerview.SectionedViewHolder
 import com.bumptech.glide.RequestManager
-import jahirfiquitiva.libs.frames.R
-import jahirfiquitiva.libs.frames.helpers.extensions.jfilter
-import jahirfiquitiva.libs.frames.ui.adapters.viewholders.Credit
-import jahirfiquitiva.libs.frames.ui.adapters.viewholders.DashboardCreditViewHolder
-import jahirfiquitiva.libs.frames.ui.adapters.viewholders.SectionedHeaderViewHolder
-import jahirfiquitiva.libs.frames.ui.adapters.viewholders.SimpleCreditViewHolder
+import com.legion.lpaper.R
+import com.legion.lpaper.helpers.extensions.jfilter
+import com.legion.lpaper.ui.adapters.viewholders.Credit
+import com.legion.lpaper.ui.adapters.viewholders.DashboardCreditViewHolder
+import com.legion.lpaper.ui.adapters.viewholders.SectionedHeaderViewHolder
+import com.legion.lpaper.ui.adapters.viewholders.SimpleCreditViewHolder
 
 class CreditsAdapter(
     @StringRes private val dashboardTitle: Int,

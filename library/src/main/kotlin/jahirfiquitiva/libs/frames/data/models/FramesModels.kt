@@ -13,14 +13,14 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package jahirfiquitiva.libs.frames.data.models
+package com.legion.lpaper.data.models
 
 import android.os.Parcel
 import android.os.Parcelable
 import androidx.room.ColumnInfo
 import androidx.room.Entity
 import androidx.room.PrimaryKey
-import jahirfiquitiva.libs.frames.helpers.extensions.toReadableByteCount
+import com.legion.lpaper.helpers.extensions.toReadableByteCount
 import jahirfiquitiva.libs.kext.extensions.readBoolean
 import jahirfiquitiva.libs.kext.extensions.writeBoolean
 import java.util.ArrayList

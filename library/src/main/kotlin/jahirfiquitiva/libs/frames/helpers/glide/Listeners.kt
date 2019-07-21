@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package jahirfiquitiva.libs.frames.helpers.glide
+package com.legion.lpaper.helpers.glide
 
 import android.graphics.drawable.BitmapDrawable
 import android.graphics.drawable.Drawable
@@ -23,7 +23,7 @@ import com.bumptech.glide.load.DataSource
 import com.bumptech.glide.load.engine.GlideException
 import com.bumptech.glide.request.RequestListener
 import com.bumptech.glide.request.target.Target
-import jahirfiquitiva.libs.frames.helpers.utils.FL
+import com.legion.lpaper.helpers.utils.FL
 import jahirfiquitiva.libs.kext.helpers.Rec
 
 inline fun <reified T> quickListener(crossinline what: (T) -> Boolean): FramesGlideListener<T> {

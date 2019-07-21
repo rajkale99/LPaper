@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package jahirfiquitiva.libs.frames.ui.fragments.base
+package com.legion.lpaper.ui.fragments.base
 
 import android.graphics.Color
 import android.view.animation.Animation
@@ -24,10 +24,10 @@ import android.widget.TextView
 import androidx.annotation.ColorInt
 import androidx.recyclerview.widget.RecyclerView
 import com.google.android.material.snackbar.Snackbar
-import jahirfiquitiva.libs.frames.R
-import jahirfiquitiva.libs.frames.data.models.Wallpaper
-import jahirfiquitiva.libs.frames.helpers.extensions.createHeartIcon
-import jahirfiquitiva.libs.frames.ui.activities.base.FavsDbManager
+import com.legion.lpaper.R
+import com.legion.lpaper.data.models.Wallpaper
+import com.legion.lpaper.helpers.extensions.createHeartIcon
+import com.legion.lpaper.ui.activities.base.FavsDbManager
 import jahirfiquitiva.libs.kext.extensions.SimpleAnimationListener
 import jahirfiquitiva.libs.kext.extensions.applyColorFilter
 import jahirfiquitiva.libs.kext.extensions.buildSnackbar

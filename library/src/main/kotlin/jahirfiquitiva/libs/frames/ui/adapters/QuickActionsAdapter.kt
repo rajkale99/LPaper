@@ -13,16 +13,16 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package jahirfiquitiva.libs.frames.ui.adapters
+package com.legion.lpaper.ui.adapters
 
 import android.os.Build
 import android.view.ViewGroup
 import ca.allanwang.kau.utils.inflate
 import com.afollestad.sectionedrecyclerview.SectionedRecyclerViewAdapter
 import com.afollestad.sectionedrecyclerview.SectionedViewHolder
-import jahirfiquitiva.libs.frames.R
-import jahirfiquitiva.libs.frames.ui.adapters.viewholders.QuickActionsViewHolder
-import jahirfiquitiva.libs.frames.ui.adapters.viewholders.SectionedHeaderViewHolder
+import com.legion.lpaper.R
+import com.legion.lpaper.ui.adapters.viewholders.QuickActionsViewHolder
+import com.legion.lpaper.ui.adapters.viewholders.SectionedHeaderViewHolder
 
 class QuickActionsAdapter(
     private val title: String = "",

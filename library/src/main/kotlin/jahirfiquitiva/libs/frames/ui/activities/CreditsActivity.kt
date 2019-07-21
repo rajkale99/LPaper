@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package jahirfiquitiva.libs.frames.ui.activities
+package com.legion.lpaper.ui.activities
 
 import android.annotation.SuppressLint
 import android.content.Context
@@ -31,13 +31,13 @@ import com.pluscubed.recyclerfastscroll.RecyclerFastScroller
 import de.psdev.licensesdialog.LicenseResolver
 import de.psdev.licensesdialog.LicensesDialog
 import de.psdev.licensesdialog.licenses.License
-import jahirfiquitiva.libs.frames.R
-import jahirfiquitiva.libs.frames.helpers.utils.FL
-import jahirfiquitiva.libs.frames.helpers.utils.FramesKonfigs
-import jahirfiquitiva.libs.frames.ui.adapters.CreditsAdapter
-import jahirfiquitiva.libs.frames.ui.adapters.viewholders.Credit
-import jahirfiquitiva.libs.frames.ui.widgets.CustomToolbar
-import jahirfiquitiva.libs.frames.ui.widgets.EmptyViewRecyclerView
+import com.legion.lpaper.R
+import com.legion.lpaper.helpers.utils.FL
+import com.legion.lpaper.helpers.utils.FramesKonfigs
+import com.legion.lpaper.ui.adapters.CreditsAdapter
+import com.legion.lpaper.ui.adapters.viewholders.Credit
+import com.legion.lpaper.ui.widgets.CustomToolbar
+import com.legion.lpaper.ui.widgets.EmptyViewRecyclerView
 import jahirfiquitiva.libs.kext.extensions.bind
 import jahirfiquitiva.libs.kext.extensions.dividerColor
 import jahirfiquitiva.libs.kext.extensions.getActiveIconsColorFor

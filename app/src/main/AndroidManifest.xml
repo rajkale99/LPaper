@@ -105,7 +105,7 @@
                 android:value="@color/muzei_color" />
             <meta-data
                 android:name="settingsActivity"
-                android:value="jahirfiquitiva.libs.frames.ui.activities.MuzeiSettingsActivity" />
+                android:value="com.legion.lpaper.ui.activities.MuzeiSettingsActivity" />
         </provider>
 
         <!-- Required for files access !!! DO NOT REMOVE !!! -->

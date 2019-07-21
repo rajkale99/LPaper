@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package jahirfiquitiva.libs.frames.helpers.glide
+package com.legion.lpaper.helpers.glide
 
 import android.graphics.drawable.Drawable
 import com.bumptech.glide.load.DataSource

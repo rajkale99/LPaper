@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package jahirfiquitiva.libs.frames.data.services
+package com.legion.lpaper.data.services
 
 import android.annotation.SuppressLint
 import android.content.Context
@@ -24,12 +24,12 @@ import androidx.room.Room
 import com.google.android.apps.muzei.api.provider.Artwork
 import com.google.android.apps.muzei.api.provider.ProviderContract
 import jahirfiquitiva.libs.archhelpers.tasks.QAsync
-import jahirfiquitiva.libs.frames.data.models.Wallpaper
-import jahirfiquitiva.libs.frames.data.models.db.FavoritesDatabase
-import jahirfiquitiva.libs.frames.helpers.utils.DATABASE_NAME
-import jahirfiquitiva.libs.frames.helpers.utils.FramesKonfigs
-import jahirfiquitiva.libs.frames.viewmodels.FavoritesViewModel
-import jahirfiquitiva.libs.frames.viewmodels.WallpapersViewModel
+import com.legion.lpaper.data.models.Wallpaper
+import com.legion.lpaper.data.models.db.FavoritesDatabase
+import com.legion.lpaper.helpers.utils.DATABASE_NAME
+import com.legion.lpaper.helpers.utils.FramesKonfigs
+import com.legion.lpaper.viewmodels.FavoritesViewModel
+import com.legion.lpaper.viewmodels.WallpapersViewModel
 import jahirfiquitiva.libs.kext.extensions.formatCorrectly
 import jahirfiquitiva.libs.kext.extensions.hasContent
 import java.lang.ref.WeakReference

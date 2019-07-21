@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package jahirfiquitiva.libs.frames.helpers.extensions
+package com.legion.lpaper.helpers.extensions
 
 import android.annotation.SuppressLint
 import android.content.Context
@@ -27,8 +27,8 @@ import androidx.fragment.app.Fragment
 import ca.allanwang.kau.utils.darken
 import ca.allanwang.kau.utils.lighten
 import ca.allanwang.kau.utils.showChangelog
-import jahirfiquitiva.libs.frames.R
-import jahirfiquitiva.libs.frames.helpers.utils.FramesKonfigs
+import com.legion.lpaper.R
+import com.legion.lpaper.helpers.utils.FramesKonfigs
 import jahirfiquitiva.libs.kext.extensions.actv
 import jahirfiquitiva.libs.kext.extensions.cardBackgroundColor
 import jahirfiquitiva.libs.kext.extensions.deleteEverything

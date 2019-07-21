@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package jahirfiquitiva.libs.frames.ui.activities
+package com.legion.lpaper.ui.activities
 
 import android.annotation.SuppressLint
 import android.content.Intent
@@ -60,29 +60,29 @@ import com.google.android.material.appbar.AppBarLayout
 import com.google.android.material.snackbar.Snackbar
 import jahirfiquitiva.libs.archhelpers.extensions.lazyViewModel
 import jahirfiquitiva.libs.archhelpers.extensions.mdDialog
-import jahirfiquitiva.libs.frames.R
-import jahirfiquitiva.libs.frames.data.models.Collection
-import jahirfiquitiva.libs.frames.data.models.Wallpaper
-import jahirfiquitiva.libs.frames.data.models.WallpaperInfo
-import jahirfiquitiva.libs.frames.data.models.db.FavoritesDatabase
-import jahirfiquitiva.libs.frames.helpers.extensions.framesPostponeEnterTransition
-import jahirfiquitiva.libs.frames.helpers.extensions.safeStartPostponedEnterTransition
-import jahirfiquitiva.libs.frames.helpers.extensions.setNavBarMargins
-import jahirfiquitiva.libs.frames.helpers.extensions.toReadableByteCount
-import jahirfiquitiva.libs.frames.helpers.extensions.toReadableTime
-import jahirfiquitiva.libs.frames.helpers.glide.loadPicture
-import jahirfiquitiva.libs.frames.helpers.glide.quickListener
-import jahirfiquitiva.libs.frames.helpers.utils.DATABASE_NAME
-import jahirfiquitiva.libs.frames.helpers.utils.FL
-import jahirfiquitiva.libs.frames.helpers.utils.FramesKonfigs
-import jahirfiquitiva.libs.frames.helpers.utils.MIN_TIME
-import jahirfiquitiva.libs.frames.ui.activities.base.BaseWallpaperActionsActivity
-import jahirfiquitiva.libs.frames.ui.adapters.viewholders.WallpaperDetail
-import jahirfiquitiva.libs.frames.ui.fragments.dialogs.InfoBottomSheet
-import jahirfiquitiva.libs.frames.ui.fragments.dialogs.WallpaperActionsDialog
-import jahirfiquitiva.libs.frames.ui.widgets.CustomToolbar
-import jahirfiquitiva.libs.frames.viewmodels.FavoritesViewModel
-import jahirfiquitiva.libs.frames.viewmodels.WallpaperInfoViewModel
+import com.legion.lpaper.R
+import com.legion.lpaper.data.models.Collection
+import com.legion.lpaper.data.models.Wallpaper
+import com.legion.lpaper.data.models.WallpaperInfo
+import com.legion.lpaper.data.models.db.FavoritesDatabase
+import com.legion.lpaper.helpers.extensions.framesPostponeEnterTransition
+import com.legion.lpaper.helpers.extensions.safeStartPostponedEnterTransition
+import com.legion.lpaper.helpers.extensions.setNavBarMargins
+import com.legion.lpaper.helpers.extensions.toReadableByteCount
+import com.legion.lpaper.helpers.extensions.toReadableTime
+import com.legion.lpaper.helpers.glide.loadPicture
+import com.legion.lpaper.helpers.glide.quickListener
+import com.legion.lpaper.helpers.utils.DATABASE_NAME
+import com.legion.lpaper.helpers.utils.FL
+import com.legion.lpaper.helpers.utils.FramesKonfigs
+import com.legion.lpaper.helpers.utils.MIN_TIME
+import com.legion.lpaper.ui.activities.base.BaseWallpaperActionsActivity
+import com.legion.lpaper.ui.adapters.viewholders.WallpaperDetail
+import com.legion.lpaper.ui.fragments.dialogs.InfoBottomSheet
+import com.legion.lpaper.ui.fragments.dialogs.WallpaperActionsDialog
+import com.legion.lpaper.ui.widgets.CustomToolbar
+import com.legion.lpaper.viewmodels.FavoritesViewModel
+import com.legion.lpaper.viewmodels.WallpaperInfoViewModel
 import jahirfiquitiva.libs.kext.extensions.SimpleAnimationListener
 import jahirfiquitiva.libs.kext.extensions.activeIconsColor
 import jahirfiquitiva.libs.kext.extensions.applyColorFilter

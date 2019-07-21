@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package jahirfiquitiva.libs.frames.ui.adapters
+package com.legion.lpaper.ui.adapters
 
 import android.view.ViewGroup
 import ca.allanwang.kau.utils.inflate
@@ -21,13 +21,13 @@ import com.bumptech.glide.ListPreloader
 import com.bumptech.glide.RequestBuilder
 import com.bumptech.glide.RequestManager
 import com.bumptech.glide.util.ViewPreloadSizeProvider
-import jahirfiquitiva.libs.frames.R
-import jahirfiquitiva.libs.frames.data.models.Collection
-import jahirfiquitiva.libs.frames.data.models.Wallpaper
-import jahirfiquitiva.libs.frames.helpers.glide.loadPicture
-import jahirfiquitiva.libs.frames.helpers.utils.MAX_COLLECTIONS_LOAD
-import jahirfiquitiva.libs.frames.ui.adapters.viewholders.CollectionHolder
-import jahirfiquitiva.libs.frames.ui.adapters.viewholders.FramesViewClickListener
+import com.legion.lpaper.R
+import com.legion.lpaper.data.models.Collection
+import com.legion.lpaper.data.models.Wallpaper
+import com.legion.lpaper.helpers.glide.loadPicture
+import com.legion.lpaper.helpers.utils.MAX_COLLECTIONS_LOAD
+import com.legion.lpaper.ui.adapters.viewholders.CollectionHolder
+import com.legion.lpaper.ui.adapters.viewholders.FramesViewClickListener
 import jahirfiquitiva.libs.kext.ui.adapters.RecyclerViewListAdapter
 import java.util.Collections
 

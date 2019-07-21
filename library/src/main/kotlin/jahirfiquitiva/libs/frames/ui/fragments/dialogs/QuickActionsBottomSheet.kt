@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package jahirfiquitiva.libs.frames.ui.fragments.dialogs
+package com.legion.lpaper.ui.fragments.dialogs
 
 import android.os.Build
 import android.view.View
@@ -24,12 +24,12 @@ import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import ca.allanwang.kau.utils.gone
 import ca.allanwang.kau.utils.visible
-import jahirfiquitiva.libs.frames.R
-import jahirfiquitiva.libs.frames.data.models.Wallpaper
-import jahirfiquitiva.libs.frames.ui.activities.base.BaseWallpaperActionsActivity
-import jahirfiquitiva.libs.frames.ui.activities.base.BaseWallpaperActionsActivity.Companion.APPLY_ACTION_ID
-import jahirfiquitiva.libs.frames.ui.activities.base.BaseWallpaperActionsActivity.Companion.DOWNLOAD_ACTION_ID
-import jahirfiquitiva.libs.frames.ui.adapters.QuickActionsAdapter
+import com.legion.lpaper.R
+import com.legion.lpaper.data.models.Wallpaper
+import com.legion.lpaper.ui.activities.base.BaseWallpaperActionsActivity
+import com.legion.lpaper.ui.activities.base.BaseWallpaperActionsActivity.Companion.APPLY_ACTION_ID
+import com.legion.lpaper.ui.activities.base.BaseWallpaperActionsActivity.Companion.DOWNLOAD_ACTION_ID
+import com.legion.lpaper.ui.adapters.QuickActionsAdapter
 import jahirfiquitiva.libs.kext.extensions.string
 
 class QuickActionsBottomSheet : BaseBottomSheet() {

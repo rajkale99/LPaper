@@ -13,12 +13,12 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package jahirfiquitiva.libs.frames.viewmodels
+package com.legion.lpaper.viewmodels
 
 import jahirfiquitiva.libs.archhelpers.tasks.QAsync
 import jahirfiquitiva.libs.archhelpers.viewmodels.ListViewModel
-import jahirfiquitiva.libs.frames.data.models.Wallpaper
-import jahirfiquitiva.libs.frames.data.models.db.FavoritesDao
+import com.legion.lpaper.data.models.Wallpaper
+import com.legion.lpaper.data.models.db.FavoritesDao
 import java.lang.ref.WeakReference
 
 class FavoritesViewModel : ListViewModel<FavoritesDao, Wallpaper>() {

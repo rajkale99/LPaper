@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package jahirfiquitiva.libs.frames.helpers.extensions
+package com.legion.lpaper.helpers.extensions
 
 import android.app.SharedElementCallback
 import android.os.Build
@@ -21,7 +21,7 @@ import android.view.View
 import androidx.core.util.Pair
 import androidx.core.view.ViewCompat
 import androidx.fragment.app.FragmentActivity
-import jahirfiquitiva.libs.frames.R
+import com.legion.lpaper.R
 
 fun FragmentActivity.framesPostponeEnterTransition(
     onTransitionEnd: () -> Unit = {},

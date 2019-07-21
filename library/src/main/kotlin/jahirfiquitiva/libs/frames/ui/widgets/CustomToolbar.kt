@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package jahirfiquitiva.libs.frames.ui.widgets
+package com.legion.lpaper.ui.widgets
 
 import android.content.Context
 import android.util.AttributeSet
@@ -22,7 +22,7 @@ import androidx.appcompat.widget.Toolbar
 import androidx.coordinatorlayout.widget.CoordinatorLayout
 import androidx.core.content.ContextCompat
 import com.google.android.material.appbar.AppBarLayout
-import jahirfiquitiva.libs.frames.R
+import com.legion.lpaper.R
 
 class CustomToolbar : Toolbar {
     constructor(context: Context) : super(context)

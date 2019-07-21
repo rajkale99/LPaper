@@ -13,15 +13,15 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package jahirfiquitiva.libs.frames.data.models.db
+package com.legion.lpaper.data.models.db
 
 import androidx.room.Dao
 import androidx.room.Delete
 import androidx.room.Insert
 import androidx.room.OnConflictStrategy
 import androidx.room.Query
-import jahirfiquitiva.libs.frames.data.models.Wallpaper
-import jahirfiquitiva.libs.frames.helpers.utils.DATABASE_NAME
+import com.legion.lpaper.data.models.Wallpaper
+import com.legion.lpaper.helpers.utils.DATABASE_NAME
 
 @Dao
 interface FavoritesDao {

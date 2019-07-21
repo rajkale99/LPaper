@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package jahirfiquitiva.libs.frames.ui.fragments.dialogs
+package com.legion.lpaper.ui.fragments.dialogs
 
 import android.app.Dialog
 import android.app.DownloadManager
@@ -31,12 +31,12 @@ import ca.allanwang.kau.utils.snackbar
 import ca.allanwang.kau.utils.toast
 import com.afollestad.materialdialogs.MaterialDialog
 import jahirfiquitiva.libs.archhelpers.extensions.mdDialog
-import jahirfiquitiva.libs.frames.R
-import jahirfiquitiva.libs.frames.data.models.Wallpaper
-import jahirfiquitiva.libs.frames.helpers.extensions.adjustToDeviceScreen
-import jahirfiquitiva.libs.frames.helpers.extensions.openWallpaper
-import jahirfiquitiva.libs.frames.helpers.utils.FL
-import jahirfiquitiva.libs.frames.ui.activities.base.BaseWallpaperActionsActivity
+import com.legion.lpaper.R
+import com.legion.lpaper.data.models.Wallpaper
+import com.legion.lpaper.helpers.extensions.adjustToDeviceScreen
+import com.legion.lpaper.helpers.extensions.openWallpaper
+import com.legion.lpaper.helpers.utils.FL
+import com.legion.lpaper.ui.activities.base.BaseWallpaperActionsActivity
 import jahirfiquitiva.libs.kext.extensions.activity
 import jahirfiquitiva.libs.kext.extensions.actv
 import jahirfiquitiva.libs.kext.extensions.context

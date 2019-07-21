@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package jahirfiquitiva.libs.frames.ui.adapters.viewholders
+package com.legion.lpaper.ui.adapters.viewholders
 
 import android.view.View
 import android.widget.ImageView
@@ -22,7 +22,7 @@ import androidx.annotation.DrawableRes
 import androidx.annotation.StringRes
 import ca.allanwang.kau.utils.tint
 import com.afollestad.sectionedrecyclerview.SectionedViewHolder
-import jahirfiquitiva.libs.frames.R
+import com.legion.lpaper.R
 import jahirfiquitiva.libs.kext.extensions.accentColor
 import jahirfiquitiva.libs.kext.extensions.bind
 import jahirfiquitiva.libs.kext.extensions.context

@@ -13,14 +13,14 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package jahirfiquitiva.libs.frames.ui.activities.base
+package com.legion.lpaper.ui.activities.base
 
 import android.content.Context
 import androidx.annotation.CallSuper
-import jahirfiquitiva.libs.frames.R
-import jahirfiquitiva.libs.frames.data.models.Wallpaper
-import jahirfiquitiva.libs.frames.data.models.db.FavoritesDatabase
-import jahirfiquitiva.libs.frames.viewmodels.FavoritesViewModel
+import com.legion.lpaper.R
+import com.legion.lpaper.data.models.Wallpaper
+import com.legion.lpaper.data.models.db.FavoritesDatabase
+import com.legion.lpaper.viewmodels.FavoritesViewModel
 import jahirfiquitiva.libs.kext.extensions.string
 import org.jetbrains.anko.doAsync
 

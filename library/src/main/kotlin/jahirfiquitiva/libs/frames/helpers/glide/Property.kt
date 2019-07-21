@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package jahirfiquitiva.libs.frames.helpers.glide
+package com.legion.lpaper.helpers.glide
 
 import android.os.Build
 import android.util.FloatProperty

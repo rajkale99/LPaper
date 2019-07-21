@@ -15,7 +15,7 @@
  */
 package jahirfiquitiva.apps.frames.sample
 
-import jahirfiquitiva.libs.frames.data.services.FramesArtProvider
+import com.legion.lpaper.data.services.FramesArtProvider
 
 // TODO: Use a unique name instead of MyFramesMuzeiService
 class MuzeiService : FramesArtProvider()

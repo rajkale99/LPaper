@@ -39,7 +39,7 @@
 }
 
 -keep public class android.app.ActivityTransitionCoordinator
--keep class jahirfiquitiva.libs.frames.** { *; }
+-keep class com.legion.lpaper.** { *; }
 -keep class jahirfiquitiva.libs.kext.** { *; }
 
 -keep class com.google.**

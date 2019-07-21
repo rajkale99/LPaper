@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package jahirfiquitiva.libs.frames.ui.adapters.viewholders
+package com.legion.lpaper.ui.adapters.viewholders
 
 import android.view.View
 import android.widget.TextView
@@ -22,8 +22,8 @@ import ca.allanwang.kau.utils.tint
 import ca.allanwang.kau.utils.toHexString
 import com.afollestad.sectionedrecyclerview.SectionedViewHolder
 import com.jahirfiquitiva.chip.ChipView
-import jahirfiquitiva.libs.frames.R
-import jahirfiquitiva.libs.frames.data.models.Collection
+import com.legion.lpaper.R
+import com.legion.lpaper.data.models.Collection
 import jahirfiquitiva.libs.kext.extensions.bind
 import jahirfiquitiva.libs.kext.extensions.drawable
 import jahirfiquitiva.libs.kext.extensions.getActiveIconsColorFor

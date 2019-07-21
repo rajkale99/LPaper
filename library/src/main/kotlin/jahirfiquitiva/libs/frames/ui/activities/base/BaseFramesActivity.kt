@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package jahirfiquitiva.libs.frames.ui.activities.base
+package com.legion.lpaper.ui.activities.base
 
 import android.annotation.SuppressLint
 import android.content.Intent
@@ -39,23 +39,23 @@ import com.github.javiersantos.piracychecker.onError
 import com.github.javiersantos.piracychecker.piracyChecker
 import com.google.android.material.snackbar.Snackbar
 import jahirfiquitiva.libs.archhelpers.extensions.mdDialog
-import jahirfiquitiva.libs.frames.R
-import jahirfiquitiva.libs.frames.data.models.Wallpaper
-import jahirfiquitiva.libs.frames.helpers.extensions.showChanges
-import jahirfiquitiva.libs.frames.helpers.utils.ADW_ACTION
-import jahirfiquitiva.libs.frames.helpers.utils.APPLY_ACTION
-import jahirfiquitiva.libs.frames.helpers.utils.FramesKonfigs
-import jahirfiquitiva.libs.frames.helpers.utils.ICONS_APPLIER
-import jahirfiquitiva.libs.frames.helpers.utils.ICONS_PICKER
-import jahirfiquitiva.libs.frames.helpers.utils.IMAGE_PICKER
-import jahirfiquitiva.libs.frames.helpers.utils.MIN_TIME
-import jahirfiquitiva.libs.frames.helpers.utils.NOVA_ACTION
-import jahirfiquitiva.libs.frames.helpers.utils.PLAY_STORE_LINK_PREFIX
-import jahirfiquitiva.libs.frames.helpers.utils.TURBO_ACTION
-import jahirfiquitiva.libs.frames.helpers.utils.WALLS_PICKER
-import jahirfiquitiva.libs.frames.ui.fragments.dialogs.QuickActionsBottomSheet
-import jahirfiquitiva.libs.frames.viewmodels.IAPItem
-import jahirfiquitiva.libs.frames.viewmodels.IAPViewModel
+import com.legion.lpaper.R
+import com.legion.lpaper.data.models.Wallpaper
+import com.legion.lpaper.helpers.extensions.showChanges
+import com.legion.lpaper.helpers.utils.ADW_ACTION
+import com.legion.lpaper.helpers.utils.APPLY_ACTION
+import com.legion.lpaper.helpers.utils.FramesKonfigs
+import com.legion.lpaper.helpers.utils.ICONS_APPLIER
+import com.legion.lpaper.helpers.utils.ICONS_PICKER
+import com.legion.lpaper.helpers.utils.IMAGE_PICKER
+import com.legion.lpaper.helpers.utils.MIN_TIME
+import com.legion.lpaper.helpers.utils.NOVA_ACTION
+import com.legion.lpaper.helpers.utils.PLAY_STORE_LINK_PREFIX
+import com.legion.lpaper.helpers.utils.TURBO_ACTION
+import com.legion.lpaper.helpers.utils.WALLS_PICKER
+import com.legion.lpaper.ui.fragments.dialogs.QuickActionsBottomSheet
+import com.legion.lpaper.viewmodels.IAPItem
+import com.legion.lpaper.viewmodels.IAPViewModel
 import jahirfiquitiva.libs.kext.extensions.boolean
 import jahirfiquitiva.libs.kext.extensions.buildSnackbar
 import jahirfiquitiva.libs.kext.extensions.compliesWithMinTime
