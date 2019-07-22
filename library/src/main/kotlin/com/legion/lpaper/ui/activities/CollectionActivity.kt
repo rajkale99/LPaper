@@ -155,8 +155,7 @@ class CollectionActivity : BaseLPaperActivity<LPaperKonfigs>(), FavsDbManager {
     override fun onCreateOptionsMenu(menu: Menu?): Boolean {
         menuInflater.inflate(R.menu.lpaper_menu, menu)
         
-        menu?.let {
-          
+        menu?.let {          
             it.setItemVisibility(R.id.about, false)
             it.setItemVisibility(R.id.settings, false)
             
