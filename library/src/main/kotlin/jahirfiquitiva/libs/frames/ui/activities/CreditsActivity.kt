@@ -1,5 +1,5 @@
 /*
- * Copyright (c) 2019. Jahir Fiquitiva
+ * Copyright (c) 2019. Raj Kale
  *
  * Licensed under the CreativeCommons Attribution-ShareAlike
  * 4.0 International License. You may not use this file except in compliance
@@ -104,7 +104,7 @@ open class CreditsActivity : ThemedActivity<LPaperKonfigs>() {
     open fun getDashboardTitle() = R.string.lpaper_dashboard
     
     override fun onCreateOptionsMenu(menu: Menu?): Boolean {
-        menuInflater.inflate(R.menu.about_settings_menu, menu)
+       
         toolbar?.tint(
             getPrimaryTextColorFor(primaryColor),
             getSecondaryTextColorFor(primaryColor),
@@ -116,17 +116,7 @@ open class CreditsActivity : ThemedActivity<LPaperKonfigs>() {
         item?.let {
             when (it.itemId) {
                 android.R.id.home -> finish()
-                R.id.translate -> try {
-                    openLink(getTranslationSite())
-                } catch (ignored: Exception) {
-                }
-                R.id.licenses -> LicensesDialog.Builder(this)
-                    .setTitle(R.string.licenses)
-                    .setNotices(R.raw.notices)
-                    .setShowFullLicenseText(false)
-                    .setIncludeOwnLicense(false)
-                    .setDividerColor(dividerColor)
-                    .build().show()
+                
                 else -> {
                 }
             }

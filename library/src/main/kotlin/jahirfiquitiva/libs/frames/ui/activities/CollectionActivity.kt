@@ -156,7 +156,7 @@ class CollectionActivity : BaseLPaperActivity<LPaperKonfigs>(), FavsDbManager {
         menuInflater.inflate(R.menu.lpaper_menu, menu)
         
         menu?.let {
-            it.setItemVisibility(R.id.donate, false)
+          
             it.setItemVisibility(R.id.about, false)
             it.setItemVisibility(R.id.settings, false)
             

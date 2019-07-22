@@ -229,8 +229,7 @@ abstract class LPaperActivity : BaseLPaperActivity<LPaperKonfigs>(), FavsDbManag
         menuInflater.inflate(R.menu.lpaper_menu, menu)
         
         menu?.let {
-            val donationItem = it.findItem(R.id.donate)
-            donationItem?.isVisible = donationsEnabled
+       
             
             searchItem = it.findItem(R.id.search)
             searchView = searchItem?.actionView as? CustomSearchView
@@ -262,7 +261,7 @@ abstract class LPaperActivity : BaseLPaperActivity<LPaperKonfigs>(), FavsDbManag
                 R.id.about -> startActivity(Intent(this, CreditsActivity::class.java))
                 R.id.settings -> startActivityForResult(
                     Intent(this, SettingsActivity::class.java), 22)
-                R.id.donate -> doDonation()
+               
             }
         }
         return super.onOptionsItemSelected(item)

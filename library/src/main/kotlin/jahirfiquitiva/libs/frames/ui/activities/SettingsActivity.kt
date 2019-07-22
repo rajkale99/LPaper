@@ -99,8 +99,7 @@ open class SettingsActivity : ActivityWFragments<LPaperKonfigs>() {
     }
     
     override fun onCreateOptionsMenu(menu: Menu?): Boolean {
-        menuInflater.inflate(R.menu.about_settings_menu, menu)
-        menu?.setItemVisibility(R.id.licenses, false)
+      
         toolbar?.tint(
             getPrimaryTextColorFor(primaryColor),
             getSecondaryTextColorFor(primaryColor),
@@ -112,12 +111,7 @@ open class SettingsActivity : ActivityWFragments<LPaperKonfigs>() {
         item?.let {
             when (it.itemId) {
                 android.R.id.home -> doFinish()
-                R.id.translate -> {
-                    try {
-                        openLink(getTranslationSite())
-                    } catch (ignored: Exception) {
-                    }
-                }
+           
                 else -> {
                 }
             }
