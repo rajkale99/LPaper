@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-  ~ Copyright (c) 2019. Jahir Fiquitiva
+  ~ Copyright (c) 2019. Raj Kale
   ~
   ~ Licensed under the CreativeCommons Attribution-ShareAlike
   ~ 4.0 International License. You may not use this file except in compliance
@@ -36,7 +36,7 @@
     </string-array>
 
     <string-array name="credits_links">
-        <item>https://www.t.me/rajkale99|https://t.me/legionupdates|https://legionos.ml</item>
-        <item>httos://t.me/prashantt41</item>
+        <item>https://www.t.me/rajkale99|https://legionos.ml</item>
+        <item>https://t.me/prashantt41</item>
     </string-array>
 </resources>
