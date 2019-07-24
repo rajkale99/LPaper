@@ -203,25 +203,19 @@ open class CreditsActivity : ThemedActivity<LPaperKonfigs>() {
             
             list.add(
                 Credit(
-                    "Jahir Fiquitiva", JAHIR_PHOTO_URL, Credit.Type.DASHBOARD,
+                    "Raj Kale", RAJ_URL, Credit.Type.DASHBOARD,
                     description = getString(R.string.dashboard_copyright),
-                    buttonsTitles = JAHIR_BUTTONS.split("|"),
-                    buttonsLinks = JAHIR_LINKS.split("|")))
+                    buttonsTitles = RAJ_BUTTONS.split("|"),
+                    buttonsLinks = RAJ.split("|")))
             
             list.add(
                 Credit(
-                    "Allan Wang", ALLAN_PHOTO_URL, Credit.Type.DASHBOARD,
+                    "Prashant", PRASHANR_PHOTO_URL, Credit.Type.DASHBOARD,
                     description = getString(R.string.allan_description),
-                    buttonsTitles = ALLAN_BUTTONS.split("|"),
-                    buttonsLinks = ALLAN_LINKS.split("|")))
+                    buttonsTitles = PRASHANT_BUTTONS.split("|"),
+                    buttonsLinks = PRASHANT.split("|")))
             
-            list.add(
-                Credit(
-                    "Sherry Sabatine", SHERRY_PHOTO_URL, Credit.Type.DASHBOARD,
-                    description = getString(R.string.sherry_description),
-                    buttonsTitles = SHERRY_BUTTONS.split("|"),
-                    buttonsLinks = SHERRY_LINKS.split("|")))
-            
+         
             list.addAll(Credit.EXTRA_CREDITS)
         } catch (e: Exception) {
             FL.e(e.message)
@@ -230,19 +224,14 @@ open class CreditsActivity : ThemedActivity<LPaperKonfigs>() {
     }
     
     private companion object {
-        const val JAHIR_PHOTO_URL =
-            "https://github.com/jahirfiquitiva/Website-Resources/raw/master/myself/me-square-white.png"
-        const val JAHIR_BUTTONS = "Website|Twitter"
-        const val JAHIR_LINKS = "https://jahir.xyz/|https://jahir.xyz/twitter/"
+        const val RAJ_PHOTO_URL =
+            "https://avatars2.githubusercontent.com/u/26388747?s=400&v=4"
+        const val RAJ_BUTTONS = "Website|Telegram"
+        const val RAJ_LINKS = "https://legionos.ml/|https://t.me/rajkale99"
         
-        const val ALLAN_PHOTO_URL = "https://avatars0.githubusercontent.com/u/6251823?v=4&s=400"
-        const val ALLAN_BUTTONS = "Website|GitHub"
-        const val ALLAN_LINKS = "https://www.allanwang.ca/|https://github.com/AllanWang"
-        
-        const val SHERRY_PHOTO_URL =
-            "https://s3-img.pixpa.com/com/large/37571/newdo-2-pw69wd.jpg"
-        const val SHERRY_BUTTONS = "Website|Instagram"
-        const val SHERRY_LINKS =
-            "http://www.ssabatinephotography.com/|https://www.instagram.com/sherry._.sabatine/"
+        const val PRASHANT_PHOTO_URL = "https://avatars0.githubusercontent.com/u/48080816?s=400&v=4"
+        const val PRASHANT_BUTTONS = "Website|Telegram"
+        const val PRASHANT_LINKS = "https://legionos.ml|https://t.me/prashantt41"
+       
     }
 }
