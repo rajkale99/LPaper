@@ -206,14 +206,14 @@ open class CreditsActivity : ThemedActivity<LPaperKonfigs>() {
                     "Raj Kale", RAJ_PHOTO_URL, Credit.Type.DASHBOARD,
                     description = getString(R.string.dashboard_copyright),
                     buttonsTitles = RAJ_BUTTONS.split("|"),
-                    buttonsLinks = RAJ.split("|")))
+                    buttonsLinks = RAJ_LINKS.split("|")))
             
             list.add(
                 Credit(
                     "Prashant", PRASHANT_PHOTO_URL, Credit.Type.DASHBOARD,
                     description = getString(R.string.PRASHANT_description),
                     buttonsTitles = PRASHANT_BUTTONS.split("|"),
-                    buttonsLinks = PRASHANT.split("|")))
+                    buttonsLinks = PRASHANT_LINKS.split("|")))
             
          
             list.addAll(Credit.EXTRA_CREDITS)
