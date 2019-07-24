@@ -203,7 +203,7 @@ open class CreditsActivity : ThemedActivity<LPaperKonfigs>() {
             
             list.add(
                 Credit(
-                    "Raj Kale", RAJ_URL, Credit.Type.DASHBOARD,
+                    "Raj Kale", RAJ_PHOTO_URL, Credit.Type.DASHBOARD,
                     description = getString(R.string.dashboard_copyright),
                     buttonsTitles = RAJ_BUTTONS.split("|"),
                     buttonsLinks = RAJ.split("|")))
