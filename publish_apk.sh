@@ -3,7 +3,7 @@ mkdir $HOME/da/
 ls
 cd app/
 ls
-cd build/output/apk/release/
+cd build/output/
 ls
 cp -Rf * $HOME/da/
 
