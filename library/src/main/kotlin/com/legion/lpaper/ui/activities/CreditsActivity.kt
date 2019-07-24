@@ -210,8 +210,8 @@ open class CreditsActivity : ThemedActivity<LPaperKonfigs>() {
             
             list.add(
                 Credit(
-                    "Prashant", PRASHANR_PHOTO_URL, Credit.Type.DASHBOARD,
-                    description = getString(R.string.allan_description),
+                    "Prashant", PRASHANT_PHOTO_URL, Credit.Type.DASHBOARD,
+                    description = getString(R.string.PRASHANT_description),
                     buttonsTitles = PRASHANT_BUTTONS.split("|"),
                     buttonsLinks = PRASHANT.split("|")))
             
