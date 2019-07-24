@@ -214,7 +214,13 @@ open class CreditsActivity : ThemedActivity<LPaperKonfigs>() {
                     description = getString(R.string.PRASHANT_description),
                     buttonsTitles = PRASHANT_BUTTONS.split("|"),
                     buttonsLinks = PRASHANT_LINKS.split("|")))
-    
+
+    } catch (e: Exception) {
+            FL.e(e.message)
+        }
+        return list
+    }
+
     private companion object {
         const val RAJ_PHOTO_URL =
             "https://avatars2.githubusercontent.com/u/26388747?s=400&v=4"
