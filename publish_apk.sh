@@ -10,7 +10,7 @@ cp -Rf * $HOME/da/
 cd $HOME/
 git config --global user.email "kaleraj.rk@gmail.com"
 git config --global user.name "rajkale99"
-git clone --depth=10 --branch=master https://rajkale99:$GITHUB_API_KEY@github.com/rajkale99/Travis.git master > /dev/null 
+git clone --depth=10 --branch=master https://rajkale99:$GITHUB_API_KEY@github.com/rajkale99/final.git master > /dev/null 
 cd master
 cp -Rf $HOME/da/ .
 ls
