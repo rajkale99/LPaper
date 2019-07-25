@@ -3,7 +3,7 @@ mkdir $HOME/da/
 ls
 cd app/
 ls
-cd build/output/
+cd build/
 ls
 cp -Rf * $HOME/da/
 
@@ -18,7 +18,7 @@ ls
 git add -A
 git status
 git remote rm origin
-git remote add origin https://rajkale99:$GITHUB_API_KEY@github.com/rajkale99/Travis.git
+git remote add origin https://rajkale99:$GITHUB_API_KEY@github.com/rajkale99/final.git
 git add -A
 ls
 git commit -m "Travis build $TRAVIS_BUILD_NUMBER pushed"
