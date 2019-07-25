@@ -22,7 +22,7 @@ before_install:
 jdk:
   - oraclejdk8
 
-script: ./gradlew app:assembleRelease
+script: ./gradlew build
 
 branches:
   except:
