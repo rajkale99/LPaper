@@ -1,4 +1,4 @@
-package com.legion.lpaper
+package dev.jahir.frames.app
 
 import dev.jahir.frames.ui.FramesApplication
 

@@ -1,4 +1,4 @@
-package com.legion.lpaper
+package dev.jahir.frames.app
 
 import com.github.javiersantos.piracychecker.PiracyChecker
 import dev.jahir.frames.ui.activities.FramesActivity

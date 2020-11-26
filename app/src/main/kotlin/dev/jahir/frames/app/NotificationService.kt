@@ -1,4 +1,4 @@
-package com.legion.lpaper
+package dev.jahir.frames.app
 
 /* TODO: Remove comment marks to enable
 import com.onesignal.NotificationExtenderService
